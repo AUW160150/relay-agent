@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "27ef44ea56b4aa52eb260ace9abccbb825116d93cfb91517de133c2eb1153dae",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_10074707898584745767",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V3"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9323,
+  "output_tokens": 27,
+  "thought_tokens": 62
+ },
+ "cost_usd": 0.014652,
+ "latency_s": 2.446,
+ "status": "requires_action"
+}

@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "8402be89df91f0085f5d721f566a4b2d01714c0ae5d023c6784f600f7ae6b38e",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_17934474991105593685",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "PMAYOPGA"
+   }
+  },
+  {
+   "id": "call_17934474991105594816",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Physician's Global Assessment (PGA) Subscore"
+   }
+  },
+  {
+   "id": "call_17934474991105595947",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_17934474991105597078",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1406,
+  "output_tokens": 114,
+  "thought_tokens": 107
+ },
+ "cost_usd": 0.003766,
+ "latency_s": 6.446,
+ "status": "requires_action"
+}

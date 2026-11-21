@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "b3f3e2e4d53890da521fca4bce519e0bffc69a4fe1dc27dc940e54bae723d9ef",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_3106923982920390222",
+   "name": "type",
+   "args": {
+    "agent_id": "form-id",
+    "text": "ADA"
+   }
+  },
+  {
+   "id": "call_3106923982920390481",
+   "name": "type",
+   "args": {
+    "agent_id": "form-label",
+    "text": "Anti-TJ301 Antibodies (ADA)"
+   }
+  },
+  {
+   "id": "call_3106923982920390740",
+   "name": "click",
+   "args": {
+    "agent_id": "form-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 85,
+  "thought_tokens": 68
+ },
+ "cost_usd": 0.003136,
+ "latency_s": 2.328,
+ "status": "requires_action"
+}

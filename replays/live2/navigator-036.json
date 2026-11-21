@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "2193fdff7f60b806024c4f6e4ab9753cfa6445cb7e7bc17bfe8070913641944e",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_12463475189829243727",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "ENDOSCR"
+   }
+  },
+  {
+   "id": "call_12463475189829242934",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Modified Mayo Endoscopy Subscore (0-3, 1 excludes friability)"
+   }
+  },
+  {
+   "id": "call_12463475189829246237",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_12463475189829245444",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1435,
+  "output_tokens": 120,
+  "thought_tokens": 112
+ },
+ "cost_usd": 0.003893,
+ "latency_s": 2.834,
+ "status": "requires_action"
+}

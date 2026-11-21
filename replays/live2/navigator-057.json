@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "ef66bba79d7b8aaa070bb7a470a3483faea41ea7e70e6f051b1cd9cb127a0083",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_18004652023685370291",
+   "name": "done",
+   "args": {
+    "summary": "Added item PMAYORB (\"Rectal Bleeding Subscore\", type number, no codelist) to form PMAYO and saved it."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1869,
+  "output_tokens": 46,
+  "thought_tokens": 49
+ },
+ "cost_usd": 0.003516,
+ "latency_s": 2.725,
+ "status": "requires_action"
+}

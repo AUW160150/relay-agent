@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "cd20be0561cfecdf79757e66b35daa5313c5303b7ab75773bbfdf6fffd85d55d",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_10584023403733815839",
+   "name": "done",
+   "args": {
+    "summary": "Created and saved event V8.1 (Visit 8.1 (PK 504h)) in group FU, study day 91, window \u00b11, dynamic rule enabled."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2008,
+  "output_tokens": 59,
+  "thought_tokens": 49
+ },
+ "cost_usd": 0.003822,
+ "latency_s": 2.037,
+ "status": "requires_action"
+}

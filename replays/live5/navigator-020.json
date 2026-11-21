@@ -1,0 +1,78 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "9bf8590baa198f3bfb4391f188e60186836b6243b8909694248abd728defbcf8",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_10335529722512718290",
+   "name": "type",
+   "args": {
+    "agent_id": "event-id",
+    "text": "V8.1"
+   }
+  },
+  {
+   "id": "call_10335529722512718063",
+   "name": "select",
+   "args": {
+    "agent_id": "event-group",
+    "value": "FU"
+   }
+  },
+  {
+   "id": "call_10335529722512717836",
+   "name": "type",
+   "args": {
+    "agent_id": "event-label",
+    "text": "Visit 8.1 (PK 504h)"
+   }
+  },
+  {
+   "id": "call_10335529722512717609",
+   "name": "type",
+   "args": {
+    "agent_id": "event-day",
+    "text": "91"
+   }
+  },
+  {
+   "id": "call_10335529722512717382",
+   "name": "type",
+   "args": {
+    "agent_id": "event-window-before",
+    "text": "1"
+   }
+  },
+  {
+   "id": "call_10335529722512717155",
+   "name": "type",
+   "args": {
+    "agent_id": "event-window-after",
+    "text": "1"
+   }
+  },
+  {
+   "id": "call_10335529722512716928",
+   "name": "click",
+   "args": {
+    "agent_id": "event-dynamic"
+   }
+  },
+  {
+   "id": "call_10335529722512716701",
+   "name": "click",
+   "args": {
+    "agent_id": "event-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1476,
+  "output_tokens": 220,
+  "thought_tokens": 145
+ },
+ "cost_usd": 0.004952,
+ "latency_s": 3.654,
+ "status": "requires_action"
+}

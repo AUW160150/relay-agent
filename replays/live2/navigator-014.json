@@ -1,0 +1,78 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "ef76ceebd812df86e151e8995da10bc4b31048aaf782f668e29b629449a11ab4",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_13982077805527794213",
+   "name": "type",
+   "args": {
+    "agent_id": "event-id",
+    "text": "V7.2"
+   }
+  },
+  {
+   "id": "call_13982077805527794020",
+   "name": "select",
+   "args": {
+    "agent_id": "event-group",
+    "value": "TRT"
+   }
+  },
+  {
+   "id": "call_13982077805527793827",
+   "name": "type",
+   "args": {
+    "agent_id": "event-label",
+    "text": "Visit 7.2 (PK Subgroup)"
+   }
+  },
+  {
+   "id": "call_13982077805527797730",
+   "name": "type",
+   "args": {
+    "agent_id": "event-day",
+    "text": "76"
+   }
+  },
+  {
+   "id": "call_13982077805527797537",
+   "name": "type",
+   "args": {
+    "agent_id": "event-window-before",
+    "text": "1"
+   }
+  },
+  {
+   "id": "call_13982077805527797344",
+   "name": "type",
+   "args": {
+    "agent_id": "event-window-after",
+    "text": "1"
+   }
+  },
+  {
+   "id": "call_13982077805527797151",
+   "name": "click",
+   "args": {
+    "agent_id": "event-dynamic"
+   }
+  },
+  {
+   "id": "call_13982077805527796958",
+   "name": "click",
+   "args": {
+    "agent_id": "event-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1472,
+  "output_tokens": 216,
+  "thought_tokens": 249
+ },
+ "cost_usd": 0.005696,
+ "latency_s": 4.495,
+ "status": "requires_action"
+}

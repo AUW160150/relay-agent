@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "d00652094bad08db42cab5e14597c338d064580cdd92c0348c75857c8ec5b543",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_5590120312675335536",
+   "name": "done",
+   "args": {
+    "summary": "Added item PMAYOSF (\"Stool Frequency Subscore\", type number, codelist none) to form PMAYO and saved it."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1888,
+  "output_tokens": 47,
+  "thought_tokens": 123
+ },
+ "cost_usd": 0.004107,
+ "latency_s": 2.983,
+ "status": "requires_action"
+}

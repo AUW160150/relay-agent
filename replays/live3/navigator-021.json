@@ -1,0 +1,62 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "f0bc8925c05b20b577ec6b7a3cacd85c6faa1c19315b021f5aabca99f638ad28",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11097146286892357585",
+   "name": "type",
+   "args": {
+    "agent_id": "event-id",
+    "text": "V8.1"
+   }
+  },
+  {
+   "id": "call_11097146286892355614",
+   "name": "select",
+   "args": {
+    "agent_id": "event-group",
+    "value": "FU"
+   }
+  },
+  {
+   "id": "call_11097146286892357739",
+   "name": "type",
+   "args": {
+    "agent_id": "event-label",
+    "text": "Visit 8.1 (PK Follow-up)"
+   }
+  },
+  {
+   "id": "call_11097146286892355768",
+   "name": "type",
+   "args": {
+    "agent_id": "event-day",
+    "text": "91"
+   }
+  },
+  {
+   "id": "call_11097146286892357893",
+   "name": "click",
+   "args": {
+    "agent_id": "event-dynamic"
+   }
+  },
+  {
+   "id": "call_11097146286892355922",
+   "name": "click",
+   "args": {
+    "agent_id": "event-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1482,
+  "output_tokens": 162,
+  "thought_tokens": 151
+ },
+ "cost_usd": 0.00457,
+ "latency_s": 3.907,
+ "status": "requires_action"
+}

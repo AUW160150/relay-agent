@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "20d9471957b98ae4b7daad06f3a0ab40a2c715cf5237d78c130da55f468b7707",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_12629956409737315615",
+   "name": "done",
+   "args": {
+    "summary": "Created and saved event V8.1 (\"Visit 8.1 (PK Follow-up)\") in group FU on study day 91 with no window and dynamic rule enabled."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2127,
+  "output_tokens": 56,
+  "thought_tokens": 53
+ },
+ "cost_usd": 0.004008,
+ "latency_s": 2.501,
+ "status": "requires_action"
+}

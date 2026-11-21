@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "709d0a26a50e6c024069a5fcc57cb1e1e8824980e27a331497c4bbe51c79771a",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_7992940786332268722",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "ENDOSCR"
+   }
+  },
+  {
+   "id": "call_7992940786332266601",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Endoscopy Subscore"
+   }
+  },
+  {
+   "id": "call_7992940786332268576",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_7992940786332270551",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1413,
+  "output_tokens": 107,
+  "thought_tokens": 95
+ },
+ "cost_usd": 0.003635,
+ "latency_s": 3.023,
+ "status": "requires_action"
+}

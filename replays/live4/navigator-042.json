@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "eea962dd8883caf8b2059a0cc50d045ab714253ba47256d9fc0b97fe7b134155",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_16135380877995576377",
+   "name": "type",
+   "args": {
+    "agent_id": "form-id",
+    "text": "ADA"
+   }
+  },
+  {
+   "id": "call_16135380877995574356",
+   "name": "type",
+   "args": {
+    "agent_id": "form-label",
+    "text": "Blood Sampling for Anti-TJ301 Antibodies (ADA)"
+   }
+  },
+  {
+   "id": "call_16135380877995576431",
+   "name": "click",
+   "args": {
+    "agent_id": "form-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1329,
+  "output_tokens": 88,
+  "thought_tokens": 61
+ },
+ "cost_usd": 0.003111,
+ "latency_s": 2.64,
+ "status": "requires_action"
+}

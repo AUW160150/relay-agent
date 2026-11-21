@@ -1,0 +1,55 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "d419b37c58c84ad50249061bd9ef21660adedbede3ec6951f1ddb970de6e5168",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_15717040798418476708",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "AESI"
+   }
+  },
+  {
+   "id": "call_15717040798418475781",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Adverse Event of Special Interest"
+   }
+  },
+  {
+   "id": "call_15717040798418474854",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "codelist"
+   }
+  },
+  {
+   "id": "call_15717040798418473927",
+   "name": "select",
+   "args": {
+    "agent_id": "item-codelist",
+    "value": "YN"
+   }
+  },
+  {
+   "id": "call_15717040798418473000",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1408,
+  "output_tokens": 136,
+  "thought_tokens": 97
+ },
+ "cost_usd": 0.00386,
+ "latency_s": 2.879,
+ "status": "requires_action"
+}

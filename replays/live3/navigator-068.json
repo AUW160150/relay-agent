@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "f4c8bc5371badaa454f7b8a7adb58a1da79cf5f9e47fbe8862a88a1f72143d94",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_7511948080193094908",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "WEIGHT"
+   }
+  },
+  {
+   "id": "call_7511948080193094797",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Body Weight (kg)"
+   }
+  },
+  {
+   "id": "call_7511948080193094686",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_7511948080193094575",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1393,
+  "output_tokens": 106,
+  "thought_tokens": 75
+ },
+ "cost_usd": 0.003447,
+ "latency_s": 4.195,
+ "status": "requires_action"
+}

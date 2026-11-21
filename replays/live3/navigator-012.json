@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "3c661d9ed9a24c6e43b4e7859a67ca682643239f93293b8795856b224c0a059f",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_18376237811608494902",
+   "name": "done",
+   "args": {
+    "summary": "Created event V7.1 (\"Visit 7.1 (PK Day 72)\") in group TRT with study day 72, no window, and dynamic rule enabled."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1995,
+  "output_tokens": 56,
+  "thought_tokens": 135
+ },
+ "cost_usd": 0.004425,
+ "latency_s": 2.142,
+ "status": "requires_action"
+}

@@ -1,0 +1,47 @@
+{
+ "ran_at": "2026-11-21T11:13:20-0800",
+ "results": [
+  {
+   "job": "voice",
+   "model": "gemini-3.8-live",
+   "ok": true,
+   "seconds": 2.09,
+   "detail": "ephemeral token + live session ok, 36482 bytes of 24 kHz PCM"
+  },
+  {
+   "job": "utterance_gate",
+   "model": "gemini-decision-1",
+   "ok": true,
+   "seconds": 0.51,
+   "detail": "noul p=0.94, choice=open_amendment (1.00)"
+  },
+  {
+   "job": "protocol_diff",
+   "model": "gemini-4-neon",
+   "ok": true,
+   "seconds": 11.13,
+   "detail": "97-page PDF read ok, {'input_tokens': 103943, 'output_tokens': 13, 'thought_tokens': 209}"
+  },
+  {
+   "job": "planner",
+   "model": "gemini-4-argon",
+   "ok": true,
+   "seconds": 6.07,
+   "detail": "structured output ok, {'input_tokens': 214, 'output_tokens': 33, 'thought_tokens': 242}"
+  },
+  {
+   "job": "navigator",
+   "model": "gemini-4-hydrogen",
+   "ok": true,
+   "seconds": 2.04,
+   "detail": "function call ok, {'input_tokens': 101, 'output_tokens': 22, 'thought_tokens': 43}"
+  },
+  {
+   "job": "auditor",
+   "model": "gemini-4-carbon",
+   "ok": true,
+   "seconds": 9.95,
+   "detail": "text ok, {'input_tokens': 38, 'output_tokens': 5, 'thought_tokens': 201}"
+  }
+ ]
+}

@@ -1,0 +1,516 @@
+{
+ "NCT01386658": {
+  "soc_pages": [
+   89,
+   90,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "4.1.3",
+    "text": "4.1.3) may receive further treatment with icatibant for a total of 3 attacks.icatibant treatments For subsequent attacks, study drug may be administered by study site personnel at the hospital/study center or by qualified home healthcare personnel at the subject\u2019s home. Alternatively, a parent/legal guardian/caregiver will be allowed to administer or the subject (under the supervision of a parent/legal guardian/caregiver) will be allowed to self-administer the investigational product after having received appropriate training. For all subsequent laryngeal attacks, subjects should be advised to seek medical attention in an appropriate healthcare facility immediately following treatment with icatibant. See the Pharmacy Manual for additional instructions regarding dose calculation and administration. Section impacted by change: Section 7.10.2 Pharmacokinetic Sampling Revised Text: Sampling for PK assessments will be collected according to the schedule of events provided in Appendix 1 (No Attack) and Appendix 2 (Initial Icatibant-treated Attack). Pharmacokinetic assessments are not conducted during subsequent attacks. Icatibant (FIRAZYR) Clinical Trial Protocol Amendment: HGT-FIR-086 18 March 2016 Shire Confidential 96 Section impacted by change: Section 7.11.1 Symptom Score Revised Text:"
+   },
+   {
+    "id": "G-2",
+    "section": "7.11.1.1",
+    "text": "7.11.1.1 Investigator Symptom Score TheFor subjects treated at the hospital/study center, the investigator will use a symptom score to assess the severities of symptoms of acute cutaneous, abdominal, and laryngeal attacks of HAE using the following 5-point scale. Symptom scores will be recorded on Day 1 at pretreatment and at predetermined time points after treatment. Results will be recorded in the CRF. Investigator-rated Symptom Score 0 = none; absence of symptoms 1 = mild (no to mild interference with daily activities) 2 = moderate (moderate interference with daily activities) 3 = severe (severe interference with daily activities) 4 = very severe (very severe interference with daily activities) For attacks classified as cutaneous and/or abdominal, investigator-rated symptom scores will be collected for 8 symptoms: abdominal tenderness, nausea, vomiting, diarrhea, skin pain, erythema, skin irritation, and skin swelling. For attacks classified as laryngeal, investigator-assessed symptom scores will be collected for 13 symptoms: abdominal tenderness, nausea, vomiting, diarrhea, skin pain, erythema, skin irritation, skin swelling, dysphagia, voice change, breathing difficulties, stridor, and asphyxia."
+   },
+   {
+    "id": "G-3",
+    "section": "7.11.1.2",
+    "text": "7.11.1.2 Home Healthcare Provider or Parent/Legal Guardian/Caregiver Symptom Score The home healthcare provider or parent/legal guardian/caregiver, after having received appropriate training, will assess the severities of symptoms of acute cutaneous, abdominal, and laryngeal attacks of HAE using the 5-point scale provided in Section 7 11 1 1 Symptom scores will be recorded on Day 1 at pretreatment and at predetermined time points after treatment. Results will be recorded in the CRF. For attacks classified as cutaneous and/or abdominal the home healthcare provider or parent/legal guardian/caregiver-rated symptom scores will be collected for 8 symptoms: abdominal tenderness, nausea, vomiting, diarrhea, skin pain, erythema, skin irritation, and skin swelling. For attacks classified as laryngeal, the home healthcare provider or parent/legal guardian/caregiver-assessed symptom scores will be collected for 13 symptoms: abdominal tenderness nausea vomiting diarrhea skin pain, erythema, skin irritation, skin swelling, dysphagia, voice change, breathing difficulties, stridor, and asphyxia Section impacted by change: Section 7.11.2 Subject Self-assessment of Pain Revised Text: FPS-R self-assessment data will be recorded in an e a diary. Subjects will record self-assessments on Day 1 at pretreatment and at predetermined time points after treatment while at the hospital/study center, and after their discharge to home. . Subjects will return the e diary to the hospital/study center at the scheduled visit on Day 8. Icatibant (FIRAZYR) Clinical Trial Protocol Amendment: HGT-FIR-086 18 March 2016 Shire Confidential 97 Section impacted by change: Section 7.11.4 Initial Symptom Relief Revised Text:"
+   },
+   {
+    "id": "G-4",
+    "section": "8.1",
+    "text": "8.1 Screening (Day of Informed Consent to Pretreatment on Day 1) \uf0b7 \u2022 Informed Consent/Assent \uf0b7 \u2022 Inclusion/Exclusion Criteria \uf0b7 \u2022 Medical history \uf0b7 \u2022 Documentation of HAE attack(s) not treated with icatibant* \uf0b7 \u2022 Confirmation of documented HAE diagnosis (via the sponsor\u2019s central laboratory) \uf0b7 \u2022 Measurement of C1-INH \uf0b7 \u2022 Pubertal status determination \uf0b7 \u2022 Physical examination \uf0b7 \u2022 Vital signs \uf0b7 \u2022 ECG \uf0b7 \u2022 Height and weight \uf0b7 \u2022 Urine pregnancy test (in females of childbearing potential) \uf0b7 \u2022 Recording of concomitant medications *For all subjects who remain enrolled in the study for longer than 6 months, a telephone contact will be scheduled every 6 months to collect information concerning HAE attacks not treated with icatibant in the study. 8 2 No Attack"
+   },
+   {
+    "id": "G-5",
+    "section": "8.2.1",
+    "text": "8.2.1 Pretreatment (Baseline) Assessments (Day 1, No Attack) The following assessments will be performed for subjects who will be treated with icatibant in the absence of a current HAE attack. All evaluations and sample collections must be performed prior to treatment. \uf0b7 \u2022 Medical history \uf0b7 \u2022 Confirm inclusion/exclusion criteria \uf0b7 \u2022 Pubertal status determination (only if the subject was classified as prepubertal at the time of the screening visit) \uf0b7 \u2022 Menstrual cycle history (in pubertal/postpubertal females only) \uf0b7 \u2022 Physical examination \uf0b7 \u2022 Vital signs \uf0b7 \u2022 Height and weight \uf0b7 \u2022 Clinical laboratory tests (serum chemistry, hematology and urinalysis) \uf0b7 \u2022 Urine pregnancy test (in females of childbearing potential) \uf0b7 \u2022 Reproductive hormone assessments \uf0b7 \u2022 Pharmacokinetic sampling \uf0b7 \u2022 Immunogenicity evaluation \uf0b7 \u2022 Recording of concomitant medications"
+   },
+   {
+    "id": "G-6",
+    "section": "8.3",
+    "text": "8.3 Pretreatment (Baseline) Assessments (Day 1, Initial and Subsequent Attacks) The following assessments will be performed at both initial and subsequent icatibant treated attacks unless otherwise indicated. All evaluations and sample collections must be performed prior to treatment. \u2022 Medical history (at initial attack only) \u2022 Confirm inclusion/exclusion criteria \u2022 Pubertal status determination (only if the subject was classified as prepubertal at the time of the screening visit) \u2022 Menstrual cycle history (in pubertal/postpubertal females only) \u2022 Physical examination \u2022 Vital signs \u2022 ECG (at subsequent attacks only) \u2022 Height and weight \u2022 Subject self assessment of HAE related pain (in subjects 4 years of age and older) using e diary FPS R \u2022 Investigator assessment of HAE symptoms \u2022 Investigator assessment of HAE related pain (in subjects younger than 4 years of age only) using FLACC \u2022 Clinical laboratory tests (serum chemistry, hematology and urinalysis) Icatibant (FIRAZYR) Clinical Trial Protocol Amendment: HGT-FIR-086 18 March 2016 Shire Confidential 100 \u2022 Urine pregnancy test (in females of childbearing potential) \u2022 Reproductive hormone assessments \u2022 Pharmacokinetic sampling (at pretreatment for initial attack only) \u2022 Immunogenicity evaluation \u2022 Recording of concomitant medications \u2022 Assessment of adverse events (at pretreatment for subsequent attacks only)"
+   },
+   {
+    "id": "G-7",
+    "section": "8.4.1",
+    "text": "8.4.1 8.2.2 Treatment Period (Day 1 to Day 8 [\u00b1 1 Day]) \uf0b7 \u2022 Investigational product administration (Day 1, Time 0) \uf0b7 \u2022 Physical examination (Day 1, 6 [\u00b10.5] hours) (or 8 [\u00b10.5] hours if the subject is not discharged***) post dose and Day 8 [\u00b11 day]) \uf0b7 \u2022 Vital signs (Day 1, 1 hour [\u00b110 minutes], 6 [\u00b10.5] hours) (or 8 [\u00b10.5] hours if the subject is not discharged***) post dose and Day 8 [\u00b11 day]) \uf0b7 \u2022 ECG (Day 1, 6 [\u00b10.5] hours (or 8 [\u00b10.5] hours if the subject is not discharged***) post dose) \uf0b7 \u2022 Clinical laboratory tests (Day 1, 6 [\u00b10.5] hours post dose and Day 8 [\u00b11 day]) \uf0b7 \u2022 Reproductive hormone assessments (Day 1, 6 [\u00b10.5] hours post dose and Day 8 [\u00b11 day]) \uf0b7 \u2022 Injection site reaction evaluation (Day 1, 1 hour [\u00b110 minutes], 6 [\u00b10.5] hours) (and 8 [\u00b10.5] hours if the subject is not discharged**) post dose, Day 2 (24 [\u00b14] hours), Day 3 (48 [\u00b14] hours), and Day 8 [\u00b11 day]) \uf0b7 \u2022 Sampling for PK assessments in pubertal/post pubertal subjects (Day 1, 15 [\u00b15] minutes, 30 [\u00b15] minutes, 45 [\u00b15 minutes], 1 hour [\u00b110 minutes], 2 hours [\u00b110 minutes], 4 [\u00b10.5] hours, 6 [\u00b10.5] hours post dose) \uf0b7 \u2022 Safety follow-up contact (Day 2 (24 [\u00b14] hours), Day 3 (48 [\u00b14] hours) by telephone (If a subject remains hospitalized, this safety follow-up will be conducted in person.) \uf0b7 \u2022 Immunogenicity evaluation (Day 8 [\u00b11 day]) \uf0b7 \u2022 Menstrual cycle history (Day 8 [\u00b11 day] in pubertal/postpubertal females) \uf0b7 \u2022 Recording of concomitant medications \uf0b7 \u2022 Assessment of adverse events *A subject may be discharged after completion of all assessments at 6 hours post treatment, if deemed medically stable in the investigator\u2019s clinical judgment. If this is the case, the assessments scheduled for 8 hours post treatment will be omitted."
+   },
+   {
+    "id": "G-8",
+    "section": "8.5",
+    "text": "8.5 8.3 Initial Icatibant-treated Attack 8 3 1 Pretreatment (Baseline) Assessments (Day 1) The following assessments will be performed at the initial icatibant-treated attack. All evaluations and sample collections must be performed prior to treatment. \uf0b7 Medical history \uf0b7 Confirm inclusion/exclusion criteria \uf0b7 Pubertal status determination (only if the subject was classified as prepubertal at the time of the screening visit) \uf0b7 Menstrual cycle history (in pubertal/postpubertal females only) \uf0b7 Physical examination \uf0b7 Vital signs \uf0b7 Height and weight \uf0b7 Subject self-assessment of HAE-related pain (in subjects 4 years of age and older) using diary FPS-R \uf0b7 Investigator assessment of HAE symptoms \uf0b7 Investigator assessment of HAE-related pain (in subjects younger than 4 years of age only) using FLACC \uf0b7 Clinical laboratory tests (serum chemistry, hematology and urinalysis) \uf0b7 Urine pregnancy test (in females of childbearing potential) \uf0b7 Reproductive hormone assessments \uf0b7 Pharmacokinetic sampling \uf0b7 Immunogenicity evaluation \uf0b7 Recording of concomitant medications"
+   },
+   {
+    "id": "G-9",
+    "section": "8.5.2",
+    "text": "8.5.2 8.3.3 Follow-up Visit (Day 90 \u00b17 days) In the event that a subject has a subsequent HAE attack within the 90 day follow-up period for the first treatment, the date of the Day 90 follow-up visit for the first treatment remains the same. Each subsequent treatment will have a corresponding Day 90 follow-up visit. \uf0b7 \u2022 Physical examination \uf0b7 \u2022 Vital signs \uf0b7 \u2022 Height and weight \uf0b7 \u2022 Clinical laboratory tests (serum chemistry, hematology, and urinalysis) \uf0b7 \u2022 Urine pregnancy test (in females of childbearing potential) \uf0b7 \u2022 Reproductive hormone assessments \uf0b7 \u2022 Immunogenicity evaluation \uf0b7 \u2022 Menstrual cycle history (in pubertal/postpubertal females) Icatibant (FIRAZYR) Clinical Trial Protocol Amendment: HGT-FIR-086 18 March 2016 Shire Confidential 102 \uf0b7 \u2022 Recording of concomitant medications \uf0b7 \u2022 Assessment of adverse events \uf0b7 \u2022 Documentation of HAE attack(s) not treated with icatibant"
+   },
+   {
+    "id": "G-10",
+    "section": "8.5.3",
+    "text": "8.5.3 8.3.4 Telephone Contact (Month 6 \u00b17 days) The scheduled telephone contact will document pubertal changes/milestones, if any. \uf0b7 \u2022 Pubarche \uf0b7 \u2022 Menarche (females only) \uf0b7 \u2022 Changes in menstrual cycle (females only) \uf0b7 \u2022 Pregnancy (females and male partner)"
+   },
+   {
+    "id": "G-11",
+    "section": "8.6",
+    "text": "8.6 8.4 Subsequent Icatibant-treated Attacks (Pubertal/Postpubertal Subjects Only) Pubertal/postpubertal subjects may receive treatment for up to 2 subsequent HAE attacks, contingent upon having been treated forreceived an initial attackicatibant treatment and presenting with a subsequent acute attack of at least 73 days after prior treatment (see Section 4.1.3). Each treatment for a subsequent attack will require a Day 90 follow up visit. If a subsequent attack occurs within 7 days of the Day 90 follow up visit for the previous attack, the assessments on Day 8 and Day 90 will be combined."
+   },
+   {
+    "id": "G-12",
+    "section": "8.6.1",
+    "text": "8.6.1 Treatment Period (Day 1 to Day 8 [\u00b1 1 Day]) For subsequent attacks, study drug may be administered by study site personnel at the hospital/study center or by qualified home healthcare personnel at the subject\u2019s home. Alternatively, a parent/legal guardian/caregiver will be allowed to administer or the subject (under the supervision of a parent/legal guardian/caregiver) will be allowed to self-administer the investigational product after having received appropriate training For all subsequent laryngeal attacks subjects should be advised to seek medical attention in an appropriate healthcare facility immediately following treatment with icatibant."
+   },
+   {
+    "id": "G-13",
+    "section": "8.4.2.2",
+    "text": "8.4.2.2 Day 2(24 [\u00b1 4] hours) On Day 2 (24 [\u00b1 4] hours): \uf0b7 The subject will self-assess HAE pain using diary FPS-R \uf0b7 Injection site reaction will be recorded \uf0b7 Concomitant medications will be recorded \uf0b7 Adverse events will be recorded 8 4 3 Follow-up Visits Each treatment for a subsequent attack will require a Day 8 and a Day 90 follow up visit. If a subsequent attack occurs within 3 days of the Day 8 follow-up visit for the previous attack the visits for Day 1 (of the subsequent icatibant-treated attack) and Day 8 (of the prior icatibant-treated attack) will be combined. If a subsequent attack occurs within 7 days of the Day 90 follow-up visit for the previous attack the visits for Day 8 (of the subsequent icatibant-treated attack) and Day 90 (of the prior icatibant-treated attack) will be combined"
+   },
+   {
+    "id": "G-14",
+    "section": "8.4.3.1",
+    "text": "8.4.3.1 Day 8 (\u00b11 day) The subject will return to the hospital/study on Day 8 (\u00b11 day) The following evaluations and sample collections will be performed on Day 8: \uf0b7 Vital signs \uf0b7 Reproductive hormone assessments \uf0b7 Immunogenicity evaluation \uf0b7 Injection site reaction evaluation \uf0b7 Concomitant medications will be recorded \uf0b7 Adverse events will be recorded"
+   },
+   {
+    "id": "G-15",
+    "section": "8.6.2",
+    "text": "8.6.2 Follow up Visit 8.4.3.2 Day 90 \u00b17 days \uf0b7 \u2022 Physical examination \uf0b7 \u2022 Vital signs \uf0b7 \u2022 Height and weight \uf0b7 \u2022 Clinical laboratory tests (serum chemistry, hematology, and urinalysis) \uf0b7 \u2022 Urine pregnancy test (in females of childbearing potential) \uf0b7 \u2022 Reproductive hormone assessments \uf0b7 \u2022 Immunogenicity evaluation \uf0b7 \u2022 Menstrual cycle history (in pubertal/postpubertal females) \uf0b7 \u2022 Recording of concomitant medications \uf0b7 \u2022 Assessment of adverse events \uf0b7 \u2022 Documentation of HAE attack(s) not treated with icatibant"
+   }
+  ]
+ },
+ "NCT02910466": {
+  "soc_pages": [
+   3,
+   4,
+   5
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "global",
+    "text": "Global Description of Change Section(s) Affected by Change Administrative changes: updated dates, moved summary of changes for Amendment 1 to Appendix 1; created new Summary of Changes. Entire document Added in details from Administrative Memo dated 29 Sep 2017; specifically, that the principal investigator was changed from MD to MD as of 31 Aug 2017. Cover page Removed secondary Shire medical monitor. Emergency Contact Information Clarified and removed language to ensure post-study assessments for subjects who discontinue early are clear in the text. Specifically, removed relevant wording in Section 3.4, Discussion of Study Design."
+   },
+   {
+    "id": "G-2",
+    "section": "3.4",
+    "text": "Section 3.4 Increased option for bone biopsy and to up to 3 times during the study. Study Schedule; Section"
+   },
+   {
+    "id": "G-3",
+    "section": "7.2.2.8",
+    "text": "7.2.2.8; Section 7.2.2.9 Added in details from Administrative Memo dated 19 Mar 2018; specifically, clarification of the versions of various tools used in the study: \uf0b7 FACT-Cognitive Function (Version 3.0) \uf0b7 The FACIT Fatigue Scale (Version 4.0) \uf0b7 The RAND 36-Item Short Form Survey (SF-36;Version 1.0)"
+   },
+   {
+    "id": "G-4",
+    "section": "7.2.2.6",
+    "text": "Section 7.2.2.6 Added all available surveys to protocol as appendices. Specifically, added in: \uf0b7 The FACIT Fatigue Scale (now Appendix 4) \uf0b7 HADS Assessment (now Appendix 5) \uf0b7 The RAND SF-36 (now Appendix 6)"
+   },
+   {
+    "id": "G-5",
+    "section": "appendix 5",
+    "text": "Appendix 5; Appendix 6 Extended study an additional 24 months for a total treatment period of 48 months."
+   },
+   {
+    "id": "G-6",
+    "section": "3.2",
+    "text": "Section 3.2; Section 7 For non-commercial use only For non-commercial use only Shire CONFIDENTIAL Page 5 SHP634-402 Protocol Amendment 2 rhPTH(1-84) 05 Sep 2018 PRODUCT QUALITY COMPLAINTS Investigators are required to report investigational product quality complaints to Shire within 24 hours. This includes any instances wherein the quality or performance of a Shire product (marketed or investigational) does not meet expectations (eg, inadequate or faulty closure, product contamination) or that the product did not meet the specifications defined in the application for the product (eg, wrong product such that the label and contents are different products). For instructions on reporting AEs related to product complaints, see Section 8. Please use the information below as applicable to report the Product Quality Complaint: Origin of Product Quality Complaint E-mail Address North and South America European Union and Rest of World Telephone numbers: Shire Lexington, MA (USA) For non-commercial use only"
+   }
+  ]
+ },
+ "NCT03012841": {
+  "soc_pages": [
+   121,
+   122,
+   123,
+   124,
+   125,
+   126,
+   127,
+   128
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "1.0",
+    "text": "1.0 Not Applicable, New Document Not Applicable, New Document Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-2",
+    "section": "7.2",
+    "text": "7.2 and 18: Modified the primary efficacy OPC and changed the atypical flutter treatment failure to any recurrence of atrial flutter FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-3",
+    "section": "7.2",
+    "text": "7.2 14.16 and 18.3.2: Changed the secondary safety objective to a primary safety objective with a pre-specified hypothesis FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-4",
+    "section": "7.2",
+    "text": "7.2 and 18.5: Added an ancillary objective Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-5",
+    "section": "7.2",
+    "text": "7.2 and 18.5: Added and ancillary objective Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-6",
+    "section": "7.2",
+    "text": "7.2 and 18.5: Removed Dana Wigert, Sr. Prin. Clinical Research Specialist 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 122 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 ancillary objective Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-7",
+    "section": "2.0",
+    "text": "2.0 Synopsis, Sections 5, 8 and 18: Study data from the Japanese centers will not be included in the PMA-S submission, but will be included in a submission to Japan Pharmaceuticals and Medical Device Agency (PMDA) Participation and enrollment in Japan is anticipated to start later than the other geographies Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-8",
+    "section": "2.0",
+    "text": "2.0 Table 5: Noted the complication definition may vary from study to study Clarification Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-9",
+    "section": "2.0",
+    "text": "2.0 Sections 14 and 20.2: Added weekly and symptom driven event monitoring FDA feedback and consistent with the 2012 HRS Expert Consensus Statement on Catheter and Surgical Ablation of AF Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-10",
+    "section": "2.0",
+    "text": "2.0 Sections 7.2.1, 14.7 and"
+   },
+   {
+    "id": "G-11",
+    "section": "18.3",
+    "text": "18.3: Modified the antiarrhythmic dose allowed after the blanking period to historic maximum FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-12",
+    "section": "2.0",
+    "text": "2.0 Sections 7.2.1 and 18: 12- lead ECGs need to demonstrate at least 10 seconds of an atrial arrhythmia to be considered a treatment failure Aligns with standard practice and FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 123 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003"
+   },
+   {
+    "id": "G-13",
+    "section": "2.0",
+    "text": "2.0 Section 8.2: Rationale was updated Consistent with the addition of a primary safety objective Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-14",
+    "section": "2.0",
+    "text": "2.0 Section 14.1: Added review of symptoms suggestive of recurrent AF/AT/AFL to the study procedures and data collection table Clarification Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-15",
+    "section": "2.0",
+    "text": "2.0 Section 14.4: Added When performed, the TEE should be occur within 1 day (on the day of or within the day prior to) the planned ablation procedure Clarification Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-16",
+    "section": "2.0",
+    "text": "2.0 Section 14.5.5: Require CTI ablation if typical flutter has been documented or was induced. Recommend induction if not in the documented history. FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-17",
+    "section": "2.0",
+    "text": "2.0 Sections 7.2.1, 7.2.3,"
+   },
+   {
+    "id": "G-18",
+    "section": "18.5",
+    "text": "18.5: removed the limitation that only CTI ablations are allowed in the right atrium Allows for treatment of pre- existing right atrial arrhythmias that may contribute to the primary objective if left untreated Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-19",
+    "section": "2.0",
+    "text": "2.0 Section 14.18: Added that a study deviation is not required if a subject misses a weekly TTM transmission. Compliance percentage will be managed by the core lab Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 124 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003"
+   },
+   {
+    "id": "G-20",
+    "section": "2.0",
+    "text": "2.0 Section 17: Added that associated imaging studies may be requested, if available, for all serious adverse events with possible relatedness to the system or procedure To support adverse event adjudication Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-21",
+    "section": "2.0",
+    "text": "2.0 Section 18: Provided details regarding the determination of subjects for data analysis FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-22",
+    "section": "2.0",
+    "text": "2.0 Section 18.4: Provided details on the Hommel stepwise procedure for the secondary objectives FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-23",
+    "section": "2.0",
+    "text": "2.0 Section 18.5: Stated that ancillary objectives been defined to provide additional information about the performance of the Arctic Front Advance Cardiac CryoAblation Catheter. No hypotheses are defined for regulatory or labeling purposes. FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-24",
+    "section": "2.0",
+    "text": "2.0 Section 21.3: Removed Ltd reference. Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-25",
+    "section": "3.0",
+    "text": "3.0 Section 18.3.2: Revised primary safety hypothesis statement and endpoint definition Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-26",
+    "section": "4.0",
+    "text": "4.0 Sections 5, 8 and 18.2: Included additional details about the sample size in FDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 125 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 relation to Japanese data and how Japanese data will be reported Fred Kueffer, Pr. Statistician"
+   },
+   {
+    "id": "G-27",
+    "section": "5.0",
+    "text": "5.0 Page 2: Removed Dr. Robert Kowal from the list of Coordinating Investigators Dr. Robert Kowal no longer functions as a practicing physician Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-28",
+    "section": "5.0",
+    "text": "5.0 Section 3: Updated Japan Monitoring contact New information Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-29",
+    "section": "5.0",
+    "text": "5.0 Table 4 and 6: Removed model number 990063- Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-30",
+    "section": "5.0",
+    "text": "5.0 Sections 5 and 12.4: Increased the BMI cut off to 40 Insufficient patient population to support enrollment requirement Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-31",
+    "section": "5.0",
+    "text": "5.0 Section 9.1.4: Added the Achieve Advance Mapping Catheter Device is now commercially available Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-32",
+    "section": "5.0",
+    "text": "5.0 Sections 9.2 and 9.3: The Manual Retraction Kits will be investigational in Japan and tracked accordingly PMDA feedback Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-33",
+    "section": "5.0",
+    "text": "5.0 Section 14.19: Removed Subject has completed follow up as an exit choice Completed follow up will be documented by completion of the 12 month office visit requirements Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 126 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003"
+   },
+   {
+    "id": "G-34",
+    "section": "5.0",
+    "text": "5.0 Section 15.1: Changed pelvic to phrenic Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-35",
+    "section": "5.0",
+    "text": "5.0 Table 11: Changed Article 273 to 274.2 for Japan Regulatory Authorities Sponsor responsibility reporting of SAEs and UADEs/USADEs Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-36",
+    "section": "6.0",
+    "text": "6.0 Table 2: Added the Monitoring contacts information New information Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-37",
+    "section": "6.0",
+    "text": "6.0 Table 3: Added the core lab and monitoring contact information New information Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-38",
+    "section": "6.0",
+    "text": "6.0 Section 4 and 11: Inclusion and exclusion criteria modified Insufficient patient population to support enrollment requirement Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-39",
+    "section": "6.0",
+    "text": "6.0 Section 7 and 12: Allow up to 20 treated subjects at a single center Enrollment barrier Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-40",
+    "section": "6.0",
+    "text": "6.0 Section 8.1.3: Removed \u201cproviding a barrier preventing air ingress into the valve and\u201d from the FlexCath Advance device description. To reflect the product description language that was recently updated in the FlexCath Advance 4FC12 Instructions for Use Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 127 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003"
+   },
+   {
+    "id": "G-41",
+    "section": "6.0",
+    "text": "6.0 Section 8.3 and 18.1: changed the words deviation and exemption to exception Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-42",
+    "section": "6.0",
+    "text": "6.0 Table 7 and Section 13.4: Allow a 12-lead ECG and physical exam that occurred within 30 days of consent for the baseline requirement Performing a second 12-lead ECG and physical exam after consent is often not feasible if they were performed prior to consent Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-43",
+    "section": "appendix g",
+    "text": "Appendix G: Modified risks to align with the current Arctic Front Advance IFU and added that the current Arctic Front Advance IFU should be referenced with respect to the possible risks Updated to reflect recently approved labeling for the commercialized device Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-44",
+    "section": "6.0",
+    "text": "6.0 Table 11: updated Japan regulatory references Typo Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-45",
+    "section": "6.0",
+    "text": "6.0 Section 20: Added Liability to the section heading Template change Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   },
+   {
+    "id": "G-46",
+    "section": "6.0",
+    "text": "6.0 Header/Footer: Content was modified Template change Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician 6723\u00033HUVLVWHQW\u0003$)\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u0003\u0003 \u0003 Version 6, 01DEC2017 Page 128 of 128 0 HGWURQLF\u0003&RQILGHQWLDO\u0003 7KLV\u0003GRFXPHQW\u0003LV\u0003HOHFWURQLFDOO\\\u0003FRQWUROOHG\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0013\u0018\u0019\u0010)\u0015\u001a\u0018\u000f\u0003Y\u0016\u0011\u0013\u0003&OLQLFDO\u0003,QYHVWLJDWLRQ\u00033ODQ\u00037HPSODWH\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003"
+   },
+   {
+    "id": "G-47",
+    "section": "6.0",
+    "text": "6.0 Version History: Moved to the end of the document Template change Dana Wigert, Sr. Prin. Clinical Research Specialist Fred Kueffer, Sr. Prin. Statistician"
+   }
+  ]
+ },
+ "NCT03922308": {
+  "soc_pages": [
+   4,
+   5,
+   6
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "4.0",
+    "text": "4.0 Amendment Date 17 Sep 2020 Country Specific Protocol Amendment Summary and Rationale: Implemented open label supplementation with rADAMTS13 in remission and increased frequency of follow-up Description of Each Change and Rationale Section(s) Affected by Change Implemented open label supplementation with rADAMTS13 in remission and increased frequency of follow-up Decrease natural occurrence of exacerbations"
+   }
+  ]
+ },
+ "NCT04084483": {
+  "soc_pages": [
+   72,
+   73,
+   74,
+   75,
+   76
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "appendix 3",
+    "text": "APPENDIX 3: PROTOCOL AMENDMENT SUMMARY Not Applicable. K-161 Sponsor: Kowa Research Institute (KRI) Clinical Trial Protocol No.: K-161-2.01US Amendment 2 26Jul2019"
+   },
+   {
+    "id": "G-2",
+    "section": "appendix 4",
+    "text": "APPENDIX 4: SPONSOR AND APPROVALS Protocol Title: A Phase 2, Prospective, Double-Masked, Randomized, Multi-Center, Vehicle-Controlled, Parallel-group, 4-week Administration Study Assessing the Safety, Efficacy, and Optimum Dosage of K-161 in non-Japanese/Japanese Adult Subjects with Moderate to Severe Dry Eye Disease Both in Environmental and Controlled Adverse Environmental (CAE) Settings Protocol Number: K-161-2.01US / Amendment 2 Final Date: 26Jul2019 This clinical study protocol was subject to critical review and has been approved by the Sponsor. The following personnel contributed to writing and/or approving this protocol. K-161 Sponsor: Kowa Research Institute (KRI) Clinical Trial Protocol No.: K-161-2.01US Amendment 2 26Jul2019"
+   },
+   {
+    "id": "G-3",
+    "section": "appendix 5",
+    "text": "APPENDIX 5: INVESTIGATOR\u2019S SIGNATURE Protocol Title: A Phase 2, Prospective, Double-Masked, Randomized, Multi-Center, Vehicle-Controlled, Parallel-group, 4-week Administration Study Assessing the Safety, Efficacy, and Optimum Dosage of K-161 in non-Japanese/Japanese Adult Subjects with Moderate to Severe Dry Eye Disease Both in Environmental and Controlled Adverse Environmental (CAE) Settings Protocol Number: K-161-2.01US / Amendment 2 Final Date: 26Jul2019 I agree to implement and conduct the study diligently and in strict compliance with the protocol, Declaration of Helsinki, Health Insurance Portability and Accountability Act, Good Clinical Practice, and all applicable laws and regulations. I agree to maintain all information supplied by and the Sponsor in confidence and, when this information is submitted to an Institutional Review Board / Independent Ethics Committee or another group, it will be submitted with a designation that it is I have read this protocol in its entirety, including the above statement, and I agree to all aspects. Signed: Date:_______________ dd mm yyyy"
+   }
+  ]
+ },
+ "NCT04800211": {
+  "soc_pages": [
+   5,
+   6
+  ],
+  "changes": []
+ },
+ "NCT05714345": {
+  "soc_pages": [
+   9,
+   10,
+   11
+  ],
+  "changes": [
+   {
+    "id": "G-1",
+    "section": "figure 2",
+    "text": "Figure 2 Lymphodepletion and Cell Dose; 1.2.4.3.2 ALLO-647 Dose and Lymphodepletion Regimen;"
+   },
+   {
+    "id": "G-2",
+    "section": "1.2.6.4",
+    "text": "1.2.6.4 RP2D for Lymphodepletion Regimen;"
+   },
+   {
+    "id": "G-3",
+    "section": "3.1",
+    "text": "3.1 Study Overview Modified the dosing in the Fludarabine, Cyclophosphamide, and ALLO-647 arm to be FCA-90 (ALLO-647 90 mg total dose; 30 mg/day x 3 days), and deleted the FCA-60 dose and ALC-based dosing requirements. Sponsor has determined the FCA-90 regimen to be optimal based on clinical response rates and safety tables, supported by the PK/PD data."
+   },
+   {
+    "id": "G-4",
+    "section": "synopsis",
+    "text": "Synopsis; 3.1 Study Overview; 5.1 Allocation to Treatment; 9.3.5 Randomization; Changed the randomization stratification factor to be based on the risk factors LDH and tumor lesion size: Stratum 1: ULN < LDH \u2264 2 x ULN and presence of lesion \u22655 cm Stratum 2: LDH \u2264 ULN or all lesions <5 cm The stratification factor is intended to balance randomized subjects across the 2 arms with less favorable disease characteristics of higher baseline LDH and bulky tumors."
+   },
+   {
+    "id": "G-5",
+    "section": "synopsis",
+    "text": "Synopsis; 2.2 Objectives and Endpoints Modified Secondary Objectives and Endpoints by moving ALLO-647 PK/PD and host T cells, and ALLO-501A cellular kinetics, and immunogenicity of ALLO-647 and ALLO-501A from Exploratory to Secondary. To reflect the additional components of investigating ALLO-647\u2019s role in enhancing effectiveness of CAR T therapy."
+   },
+   {
+    "id": "G-6",
+    "section": "synopsis",
+    "text": "Synopsis; 8.5 Data Safety Monitoring Board; 9.2 Sample Size Determination Added the DSMB\u2019s review of SAEs for enrollment pausing criteria will occur after have been randomized and had the opportunity to be followed after the first dose of lymphodepletion. Providing additional information regarding the DSMBs activities in monitoring safety in an ongoing manner throughout the study, including the potential to pause enrollment. ALLO-647 EXPAND Study Protocol ALLO-647-201 (Amendment 1) Section Summary of Changes Rationale for Change"
+   },
+   {
+    "id": "G-7",
+    "section": "4.2",
+    "text": "4.2 Exclusion Criteria The following Exclusion Criteria were modified or added: \u2022 Clarified that untreated latent tuberculosis is ineligible. \u2022 Unstable arrhythmia. \u2022 History of solid organ transplant (corneal transplant permitted). \u2022 History of hemophagocytic lymphohistiocytosis (HLH). \u2022 History of progressive multifocal leukoencephalopathy (PML). \u2022 Clinically significant liver disease, including viral or other hepatitis or cirrhosis. Clinically significant pulmonary disease, such as severe COPD; bronchospasm requiring intubation; interstitial lung disease, or pneumonitis (drug-related or autoimmune). These additional exclusion criteria provide further clarification that subjects with unstable or medically severe conditions, or a history of adverse reactions, may be unsuitable for CAR T therapy and are excluded."
+   },
+   {
+    "id": "G-8",
+    "section": "5.12.3",
+    "text": "5.12.3 Anti-Infective Prophylaxis CMV-seropositive subjects on the FC arm may receive letermovir at the investigator\u2019s discretion. Although CMV-seropositive subjects receiving the anti-CD52 antibody ALLO-647 are at the greater risk of CMV reactivation and should receive prophylaxis with letermovir, subjects receiving FC-alone may also be at risk, and may receive letermovir at the investigator\u2019s discretion."
+   },
+   {
+    "id": "G-9",
+    "section": "7.9",
+    "text": "7.9 Patient Reported Outcomes; Schedule of Activities PROs are not required to be completed before any other assessment during a clinic visit. PRO completion is aligned with visits where disease assessment scans are conducted. However, the scan results would not typically be available at the time the subject completes the PRO. To facilitate efficient and effective clinic ALLO-647 EXPAND Study Protocol ALLO-647-201 (Amendment 1) Section Summary of Changes Rationale for Change visits, the PRO does not have to be completed before any other procedure or assessment."
+   },
+   {
+    "id": "G-10",
+    "section": "schedule of activities",
+    "text": "Schedule of Activities and Footnotes Removed Day 4 lymph node biopsy procedure A lymph node biopsy at this timepoint is not standard of care for lymphoma, and is removed from the protocol."
+   },
+   {
+    "id": "G-11",
+    "section": "schedule of activities",
+    "text": "Schedule of Activities and Footnotes Removed Day -5 ALLO-501A transgene level sample, and added Focal Copy Number Score sample during screening (for baseline). Day -5 transgene levels before CAR is not necessary."
+   },
+   {
+    "id": "G-12",
+    "section": "schedule of activities",
+    "text": "Schedule of Activities and Footnotes Removed footnote instruction to collect bone marrow biopy at each timepoint when tumor assessments are performed, as this is not standard of care. Inconsistent with standard of care, and not supporting study endpoints."
+   },
+   {
+    "id": "G-13",
+    "section": "9.2",
+    "text": "9.2 Sample Size Determination; 9.3 Statistical Methods Updates to statistical definitions or analysis plans as needed to support study conduct, including DSMB reviews. As needed for effective study planning."
+   },
+   {
+    "id": "G-14",
+    "section": "throughout",
+    "text": "Throughout as applicable Corrected typos, formatting, section numbering, etc. as necessary. Minor corrections for consistency and accuracy"
+   }
+  ]
+ }
+}

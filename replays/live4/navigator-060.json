@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "4e817c9517d0b3f0b71a0fc4383ecdfcf8ca0d29982bdcaaea6eb0f3af427dc7",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_17008881946413467985",
+   "name": "done",
+   "args": {
+    "summary": "Added item DIARDISP (Diary Dispensed, codelist YN) to form DIARY."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1823,
+  "output_tokens": 39,
+  "thought_tokens": 45
+ },
+ "cost_usd": 0.003364,
+ "latency_s": 2.411,
+ "status": "requires_action"
+}

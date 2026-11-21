@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "3756702b0d0c63ece4876ad171e120b2325ec895e75a0131a1b100b04c2aa8bc",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_5221918929383923449",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-then-message",
+    "text": "IMP infusion duration must be exactly 2 hours."
+   }
+  },
+  {
+   "id": "call_5221918929383920216",
+   "name": "select",
+   "args": {
+    "agent_id": "rule-scope-form",
+    "value": "EX"
+   }
+  },
+  {
+   "id": "call_5221918929383921079",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-scope-events",
+    "text": "V2, V3, V4, V5, V6, V7"
+   }
+  },
+  {
+   "id": "call_5221918929383921942",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1732,
+  "output_tokens": 133,
+  "thought_tokens": 93
+ },
+ "cost_usd": 0.004293,
+ "latency_s": 3.31,
+ "status": "requires_action"
+}

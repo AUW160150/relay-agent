@@ -1,0 +1,55 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "0b0011e54a2813ee0264749f8acf97a794679d48b8f0be2a74985a2eb960cfec",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_8444991381594810203",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-id",
+    "text": "DYN_PK_SUB"
+   }
+  },
+  {
+   "id": "call_8444991381594808562",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-description",
+    "text": "Trigger PK subgroup visits when subject consents to PK substudy at Randomisation."
+   }
+  },
+  {
+   "id": "call_8444991381594811017",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-when",
+    "text": "$V2.RAND.PKSUB = \"Yes\""
+   }
+  },
+  {
+   "id": "call_8444991381594809376",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-then-events",
+    "text": "V2.1, V2.2, V2.3, V7.1, V7.2, V7.3, V8.1"
+   }
+  },
+  {
+   "id": "call_8444991381594811831",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1463,
+  "output_tokens": 194,
+  "thought_tokens": 174
+ },
+ "cost_usd": 0.004954,
+ "latency_s": 2.8,
+ "status": "requires_action"
+}

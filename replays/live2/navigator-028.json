@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "af1c658441f636ceb102fa0737abf492942920aa95590f7209230ff7927b4f53",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_1138162284408266300",
+   "name": "done",
+   "args": {
+    "summary": "Assigned form PK to events V2.1, V2.2, V2.3, V7.1, V7.2, V7.3, and V8.1 on the Schedule page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9132,
+  "output_tokens": 64,
+  "thought_tokens": 269
+ },
+ "cost_usd": 0.016196,
+ "latency_s": 6.042,
+ "status": "requires_action"
+}

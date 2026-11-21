@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "803c48c29513f43119be0d3acd1bfdf4ca8ad6613668c719f4303a94cdf596fb",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_4367825447608764257",
+   "name": "done",
+   "args": {
+    "summary": "Assigned form DIARY to event V2 on the Schedule page (sched-DIARY-V2 is ticked)."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9860,
+  "output_tokens": 42,
+  "thought_tokens": 117
+ },
+ "cost_usd": 0.015983,
+ "latency_s": 2.802,
+ "status": "requires_action"
+}

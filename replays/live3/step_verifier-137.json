@@ -1,0 +1,24 @@
+{
+ "job": "step_verifier",
+ "model": "gemini-decision-1",
+ "prompt_hash": "26e67ad3be23bb02d4e895d7047dc4e6989b2702adcc1b86955c895ba91cda17",
+ "answers": {
+  "action_succeeded": {
+   "type": "noul",
+   "confidence": 0.9200385874480445,
+   "p": 0.9200385874480445
+  },
+  "screen_matches_expected_state": {
+   "type": "noul",
+   "confidence": 0.8638165335165342,
+   "p": 0.8638165335165342
+  }
+ },
+ "usage": {
+  "input_tokens": 781,
+  "output_tokens": 0,
+  "thought_tokens": 0
+ },
+ "cost_usd": 7.8e-05,
+ "latency_s": 0.814
+}

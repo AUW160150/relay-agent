@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "e8a6f67088a12442f2cb2bfd097a9aa0cf8d57ffd92163fd280b465bc2ee4897",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_16626529405187316561",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-description",
+    "text": "PK sample date is before the first dose."
+   }
+  },
+  {
+   "id": "call_16626529405187316590",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-scope-events",
+    "text": "V2.1, V2.2, V2.3, V3, V4, V5, V6, V7, V7.1, V7.2, V7.3, V8, V8.1, V9"
+   }
+  },
+  {
+   "id": "call_16626529405187316619",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1669,
+  "output_tokens": 140,
+  "thought_tokens": 297
+ },
+ "cost_usd": 0.005781,
+ "latency_s": 2.815,
+ "status": "requires_action"
+}

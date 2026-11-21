@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "e2e75507beef56231be28ddb49a2625580626477e522428a6e27b21a588e6a8c",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_17407624878342918384",
+   "name": "done",
+   "args": {
+    "summary": "Casebook version 2 is deployed to production on the Deployment page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1381,
+  "output_tokens": 33,
+  "thought_tokens": 145
+ },
+ "cost_usd": 0.003406,
+ "latency_s": 2.367,
+ "status": "requires_action"
+}

@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "ae02b7466b2974b6cf734da894dc31ed723e75551d5a70ed10a07560c3682fc1",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_1577939772100876541",
+   "name": "type",
+   "args": {
+    "agent_id": "form-id",
+    "text": "DIARY"
+   }
+  },
+  {
+   "id": "call_1577939772100877308",
+   "name": "type",
+   "args": {
+    "agent_id": "form-label",
+    "text": "Patient Diary Dispensing and Review"
+   }
+  },
+  {
+   "id": "call_1577939772100878075",
+   "name": "click",
+   "args": {
+    "agent_id": "form-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1324,
+  "output_tokens": 82,
+  "thought_tokens": 66
+ },
+ "cost_usd": 0.003096,
+ "latency_s": 2.307,
+ "status": "requires_action"
+}

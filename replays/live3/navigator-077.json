@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "7ee6d096fd8683ee60bee7592c55e2f796178191f2220d23439288a57d1cee54",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_18225062393882626316",
+   "name": "done",
+   "args": {
+    "summary": "Added item AESI (Adverse Event of Special Interest, codelist YN) to form AE and saved it."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1862,
+  "output_tokens": 43,
+  "thought_tokens": 53
+ },
+ "cost_usd": 0.003513,
+ "latency_s": 2.238,
+ "status": "requires_action"
+}

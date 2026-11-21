@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "f8e7bc6f797be6ac7e3e6773194b70211d77021e990c9ca36e1670cbd129a5b2",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_5604746014957958086",
+   "name": "type",
+   "args": {
+    "agent_id": "form-id",
+    "text": "PE"
+   }
+  },
+  {
+   "id": "call_5604746014957961017",
+   "name": "type",
+   "args": {
+    "agent_id": "form-label",
+    "text": "Physical Examination"
+   }
+  },
+  {
+   "id": "call_5604746014957959852",
+   "name": "click",
+   "args": {
+    "agent_id": "form-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1318,
+  "output_tokens": 77,
+  "thought_tokens": 61
+ },
+ "cost_usd": 0.003012,
+ "latency_s": 2.326,
+ "status": "requires_action"
+}

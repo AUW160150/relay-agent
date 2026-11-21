@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "96e896fb4f5e844a4276d495fdf7808b01f411b0838bd296dc810f107f2788b7",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_10555948140048936511",
+   "name": "scroll",
+   "args": {
+    "agent_id": "event-edit-V8.1"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2062,
+  "output_tokens": 29,
+  "thought_tokens": 150
+ },
+ "cost_usd": 0.004436,
+ "latency_s": 2.305,
+ "status": "requires_action"
+}

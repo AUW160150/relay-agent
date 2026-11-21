@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "4357ee46a74fd37a011b5b7292b005c6c60528e208a7d700e5f53c4d3c6f0a72",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11431724075962102968",
+   "name": "done",
+   "args": {
+    "summary": "Added item MAYORB (Rectal Bleeding Subscore, type number, codelist none) to form MAYO."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1866,
+  "output_tokens": 42,
+  "thought_tokens": 146
+ },
+ "cost_usd": 0.004209,
+ "latency_s": 7.055,
+ "status": "requires_action"
+}

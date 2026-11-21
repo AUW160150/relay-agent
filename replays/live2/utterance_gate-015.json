@@ -1,0 +1,56 @@
+{
+ "job": "utterance_gate",
+ "model": "gemini-decision-1",
+ "prompt_hash": "794835448870a06396cbd0655c19edab9b829ccdc6d8ad5dab355b3ab83b8b4c",
+ "answers": {
+  "intent": {
+   "type": "choice",
+   "confidence": 0.9666855108179304,
+   "choice": "approve",
+   "probabilities": {
+    "open_amendment": 0.00030823456709673795,
+    "approve": 0.9666855108179304,
+    "show_source": 0.0027211673096964066,
+    "choose_option": 0.0010225283067492607,
+    "stop": 0.00046868094942007816,
+    "sign": 0.00014119222277344964,
+    "resume": 0.0006846257766695623,
+    "deploy": 0.00021672578913463632,
+    "explain": 0.001233637497200947,
+    "open_transition": 0.00041422765438469094,
+    "undo": 8.051153308314711e-05,
+    "reject": 0.015803771982128626,
+    "other": 0.010219185593731766
+   }
+  },
+  "option": {
+   "type": "choice",
+   "confidence": 0.9776750828031958,
+   "choice": "none",
+   "probabilities": {
+    "C": 0.002880714865272116,
+    "none": 0.9776750828031958,
+    "A": 0.0087338272173581,
+    "D": 0.004515770192883319,
+    "B": 0.006194604921290728
+   }
+  },
+  "addressed_to_agent": {
+   "type": "noul",
+   "confidence": 0.9610723647662146,
+   "p": 0.9610723647662146
+  },
+  "relevant_to_current_task": {
+   "type": "noul",
+   "confidence": 0.9359668315297823,
+   "p": 0.9359668315297823
+  }
+ },
+ "usage": {
+  "input_tokens": 794,
+  "output_tokens": 0,
+  "thought_tokens": 0
+ },
+ "cost_usd": 7.9e-05,
+ "latency_s": 0.276
+}

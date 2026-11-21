@@ -1,0 +1,65 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "61968a89dc574b1f94233e95098190fdbb4ffd89bb077a50c61110ebe6aed873",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_15132270059329629022",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V2.1"
+   }
+  },
+  {
+   "id": "call_15132270059329629101",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V2.2"
+   }
+  },
+  {
+   "id": "call_15132270059329629180",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V2.3"
+   }
+  },
+  {
+   "id": "call_15132270059329629259",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V7.1"
+   }
+  },
+  {
+   "id": "call_15132270059329629338",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V7.2"
+   }
+  },
+  {
+   "id": "call_15132270059329629417",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V7.3"
+   }
+  },
+  {
+   "id": "call_15132270059329629496",
+   "name": "click",
+   "args": {
+    "agent_id": "review-SDV100-PK-V8.1"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2309,
+  "output_tokens": 221,
+  "thought_tokens": 329
+ },
+ "cost_usd": 0.007588,
+ "latency_s": 3.753,
+ "status": "requires_action"
+}

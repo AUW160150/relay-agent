@@ -1,0 +1,59 @@
+{
+ "job": "audit_scoring",
+ "model": "gemini-decision-1",
+ "prompt_hash": "2357f7ae4bb4e7bb99f82a7d76a52a7dfc05f921a99a388a685d08380fe6b1fb",
+ "answers": {
+  "F-8": {
+   "type": "noul",
+   "confidence": 0.952623804230143,
+   "p": 0.952623804230143
+  },
+  "F-3": {
+   "type": "noul",
+   "confidence": 0.99,
+   "p": 0.99
+  },
+  "F-2": {
+   "type": "noul",
+   "confidence": 0.981929542913078,
+   "p": 0.981929542913078
+  },
+  "F-5": {
+   "type": "noul",
+   "confidence": 0.7758820443306175,
+   "p": 0.7758820443306175
+  },
+  "F-1": {
+   "type": "noul",
+   "confidence": 0.9686873327438723,
+   "p": 0.9686873327438723
+  },
+  "F-6": {
+   "type": "noul",
+   "confidence": 0.99,
+   "p": 0.99
+  },
+  "F-4": {
+   "type": "noul",
+   "confidence": 0.9828493191774822,
+   "p": 0.9828493191774822
+  },
+  "F-7": {
+   "type": "noul",
+   "confidence": 0.99,
+   "p": 0.99
+  },
+  "F-9": {
+   "type": "noul",
+   "confidence": 0.9673042084421762,
+   "p": 0.9673042084421762
+  }
+ },
+ "usage": {
+  "input_tokens": 4013,
+  "output_tokens": 0,
+  "thought_tokens": 0
+ },
+ "cost_usd": 0.000401,
+ "latency_s": 0.308
+}

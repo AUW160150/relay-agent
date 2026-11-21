@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "b4f8434fdc86a2df157867be682e0b13381971a02c8417dcbdac8227d3b5e3bc",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_13328447457107901371",
+   "name": "done",
+   "args": {
+    "summary": "Assigned form CM_STAB to events V2.1, V2.2, V2.3, V7.1, V7.2, V7.3, and V8.1 on the Schedule page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9209,
+  "output_tokens": 67,
+  "thought_tokens": 141
+ },
+ "cost_usd": 0.015374,
+ "latency_s": 3.567,
+ "status": "requires_action"
+}

@@ -1,0 +1,44 @@
+# The only place model IDs live. One owner per job.
+# Confirmed against the official docs on 2026-11-21; see docs/model_check.md.
+api_version: v1beta   # Live, ephemeral tokens and Decisions are v1beta only (SDK 3.x defaults to v1)
+sdk_min: "3.3"
+
+jobs:
+  voice:
+    model: gemini-3.8-live
+    counts_as_gemini_4: false
+    note: Speech in and out, barge-in, function calls into the orchestrator. Does not decide changes.
+  utterance_gate:
+    model: gemini-decision-1
+    api: decisions
+    thresholds: {addressed: 0.75, unsure_low: 0.40, relevant: 0.50, intent: 0.55}
+  protocol_diff:
+    model: gemini-4-neon
+    thinking_level: low        # high took 385 s on the 97-page protocol; see eval/FAILURES.md F-06
+    pdf_resolution: medium
+  planner:
+    model: gemini-4-argon
+    thinking_level: low
+  navigator:
+    model: gemini-4-hydrogen
+    thinking_level: low
+    max_steps_per_goal: 14
+  auditor:
+    model: gemini-4-carbon
+    thinking_level: low
+  step_verifier:
+    model: gemini-decision-1
+    api: decisions
+    thresholds: {action_succeeded: 0.60, screen_matches: 0.60}
+  audit_scoring:
+    model: gemini-decision-1
+    api: decisions
+    thresholds: {route_to_human: 0.50}
+
+# USD per 1M tokens (standard tier), from the pricing page on 2026-11-21. Used by eval cost reporting.
+pricing:
+  gemini-4-neon: {input: 3.00, output: 15.00}
+  gemini-4-argon: {input: 2.00, output: 10.00}     # doubles on 2026-12-01
+  gemini-4-carbon: {input: 2.00, output: 10.00}    # doubles on 2026-12-01
+  gemini-4-hydrogen: {input: 1.50, output: 7.50}
+  gemini-decision-1: {input: 0.10, output: 0.00}

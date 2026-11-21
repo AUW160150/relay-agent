@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "e4dca35446084466c75c1fd6cf0e89df77abe28b76481352fc79f29bc3ce2c34",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_12376757127048529813",
+   "name": "done",
+   "args": {
+    "summary": "Form DIARY is already assigned (ticked) at event V2 on the Schedule page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9910,
+  "output_tokens": 38,
+  "thought_tokens": 108
+ },
+ "cost_usd": 0.01596,
+ "latency_s": 2.729,
+ "status": "requires_action"
+}

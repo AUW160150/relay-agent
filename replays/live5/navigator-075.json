@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "b50778b2b12b1840f657090143d886ef5dc0ea9c322e3dab1f14140b442acecf",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_8584319993847015643",
+   "name": "done",
+   "args": {
+    "summary": "Created rule CMP_ENDO_01 on the Rules page with type edit_check, the specified description, condition, query message, form scope ENDO, and event scope V1."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1939,
+  "output_tokens": 57,
+  "thought_tokens": 175
+ },
+ "cost_usd": 0.004648,
+ "latency_s": 2.454,
+ "status": "requires_action"
+}

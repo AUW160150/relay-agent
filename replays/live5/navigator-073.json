@@ -1,0 +1,48 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "2d7ee0eb4122da77bd80e0d7e5bd48fd54d4917a43ca0937b3dbbeff2d50de11",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_1577912157772654227",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-id",
+    "text": "CMP_ENDO_01"
+   }
+  },
+  {
+   "id": "call_1577912157772656330",
+   "name": "select",
+   "args": {
+    "agent_id": "rule-type",
+    "value": "edit_check"
+   }
+  },
+  {
+   "id": "call_1577912157772654337",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-description",
+    "text": "Screening endoscopy must be performed between Day -35 and Day -6 prior to Randomisation (V2)."
+   }
+  },
+  {
+   "id": "call_1577912157772656440",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-when",
+    "text": "days_between(ENDO.ENDODTC, $V2.DATE) < 6 or days_between(ENDO.ENDODTC, $V2.DATE) > 35"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1491,
+  "output_tokens": 175,
+  "thought_tokens": 244
+ },
+ "cost_usd": 0.005379,
+ "latency_s": 4.0,
+ "status": "requires_action"
+}

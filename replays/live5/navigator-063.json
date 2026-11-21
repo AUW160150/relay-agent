@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "6c8a83e16fb94eddf4cded73cbd1886f9c62fd9609ff80b4b1473b026de0f75b",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_8382766488028366049",
+   "name": "done",
+   "args": {
+    "summary": "Added item DIARYPERF (label \"Diary Dispensed / Reviewed\", type codelist, codelist YN) to form DIARY and saved it."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1827,
+  "output_tokens": 50,
+  "thought_tokens": 46
+ },
+ "cost_usd": 0.003461,
+ "latency_s": 2.47,
+ "status": "requires_action"
+}

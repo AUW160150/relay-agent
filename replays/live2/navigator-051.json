@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "40808b335bae3dce346b55872889c8fd88e2220016a0d8bf5b2c041ae40e1fdf",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_517365318222732228",
+   "name": "click",
+   "args": {
+    "agent_id": "form-open-PMAYO"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1705,
+  "output_tokens": 27,
+  "thought_tokens": 34
+ },
+ "cost_usd": 0.003015,
+ "latency_s": 7.387,
+ "status": "requires_action"
+}

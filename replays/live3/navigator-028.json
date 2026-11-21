@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "4ad77c184f6e9cf4d07f5c1d0064ca8d868df9b23864c3d5869181012eec257d",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_7536570397174429626",
+   "name": "done",
+   "args": {
+    "summary": "Added entries \"48 h\", \"144 h\", and \"240 h\" to codelist PKTPT."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1716,
+  "output_tokens": 46,
+  "thought_tokens": 91
+ },
+ "cost_usd": 0.003602,
+ "latency_s": 1.51,
+ "status": "requires_action"
+}

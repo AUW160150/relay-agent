@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "6d4a1e68f17fcf20cd90f2f45daa5ac966dceac26081b56b83d7f499a38e952a",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_16208305695409498279",
+   "name": "done",
+   "args": {
+    "summary": "Added item WEIGHT (\"Body Weight (kg)\", type number, codelist none) to form PE."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1816,
+  "output_tokens": 39,
+  "thought_tokens": 44
+ },
+ "cost_usd": 0.003347,
+ "latency_s": 5.188,
+ "status": "requires_action"
+}

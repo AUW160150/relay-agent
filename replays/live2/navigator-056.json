@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "c701ea17db08766e92ee82731dcae10dffc89cf8ca5fca047c3e5f137edd5f46",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_9528225546106804838",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "PMAYORB"
+   }
+  },
+  {
+   "id": "call_9528225546106803659",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Rectal Bleeding Subscore"
+   }
+  },
+  {
+   "id": "call_9528225546106802480",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_9528225546106805397",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1399,
+  "output_tokens": 108,
+  "thought_tokens": 150
+ },
+ "cost_usd": 0.004033,
+ "latency_s": 4.686,
+ "status": "requires_action"
+}

@@ -1,0 +1,125 @@
+RELAY Agent: hackathon submission answers
+==========================================
+
+
+PROJECT DESCRIPTION
+Describe the project and what problem it solves.
+-------------------------------------------------
+
+RELAY Agent is a voice-first agent that carries a clinical trial protocol
+amendment from the new protocol PDF all the way to a signed, validated update
+of the trial's electronic data capture (EDC) build.
+
+The problem. When a trial protocol is amended, someone has to work out what
+changed, decide which changes affect data collection, redesign the EDC build
+(visits, forms, fields, edit checks, rules), test it, get it approved and
+signed, deploy it, roll it out site by site, and tell every site what it
+means for participants already enrolled. That work passes between three
+organisations: the sponsor (the drug company), the CRO running the trial, and
+the hospital sites. It is slow and manual, it is done under FDA audit
+requirements, and each handoff is a place where context gets lost. An
+automated change that nobody can explain or trace is not acceptable in this
+setting.
+
+What RELAY does. You sign in as a sponsor data manager, a CRO study manager or
+a site coordinator. The agent greets you by voice, tells you what the other
+roles have done while you were away, and tells you what is yours to do next.
+When you say "do it", it opens the EDC application and works through it in
+front of you: a visible cursor moves, fields fill in, pages change. You can
+interrupt at any time ("stop", "why?", "show me the source", "try option B
+instead").
+
+The agent navigates; the human decides. It stops only where a person has to:
+choosing between design options, answering the audit questions that most need
+judgement, approving the build, and signing. A spoken "yes" can approve, but
+it is not a signature: signing asks for user ID and password again and states
+its meaning, in the style of 21 CFR Part 11.
+
+Why it can be trusted. Every step lands in an append-only audit ledger with
+who did it (a person, the AI, or a fixed rule), the protocol page and quote it
+came from, the check it passed, and a SHA-256 hash that chains to the entry
+before it. Three things are deliberately not done by a model:
+  - every quote a model cites is looked up in the PDF by fixed code;
+  - the rules the planner writes are executed by a deterministic rule engine
+    against synthetic participants, and those results are the test evidence;
+  - the built casebook is compared with the plan by content hash before the
+    agent is allowed to ask for approval.
+A second, independent model audits the plan without seeing the first model's
+reasoning. If any check fails, the agent refuses to ask for approval and says
+what failed.
+
+What is real. The study (NCT03235752), its 27 sites and its 97-page protocol
+are public registry data. In a live run on that protocol the agent read the
+PDF, found about 25 real changes, planned three designs, audited them, built
+the chosen one in the real UI (23 of 23 operations), verified that the build
+equalled the plan and that the test participants passed, and carried the
+signed result through CRO deployment to 24 sites and a site sign-off. The
+sponsor part took about nine minutes and cost under two dollars in model
+calls. Site staff and participants are synthetic.
+
+What is not finished. Voice passes the API smoke test but has not been tested
+with a microphone in the browser; the typed path is the one proven end to
+end. The evaluation tables against the single-call baselines have not been
+run yet.
+
+
+WHAT JOB DOES EACH MODEL DO?
+Include any other Google models you used.
+-----------------------------------------
+
+Six Google models, one owner per job. Four are Gemini 4 models. Model IDs
+live in one file, config/models.yaml.
+
+1. Gemini 4 Neon (gemini-4-neon): protocol diff.
+   Reads the whole protocol PDF in one pass (97 pages here, within its
+   1M-token context) and returns a typed list of changes. Each change has
+   its section, page, an exact quote, a type (schedule, eligibility,
+   procedure, endpoint, safety, admin) and whether it affects the EDC build.
+   It also writes the two-sentence summary the agent speaks.
+
+2. Gemini 4 Argon (gemini-4-argon): build planner and engineer.
+   Turns the build-affecting changes into two or three design options, then
+   for each option writes the casebook diff as typed operations (events,
+   forms, items, codelists, edit checks, dynamic rules), writes the rule
+   expressions, and writes synthetic test participants that exercise each
+   rule. If our rule engine rejects its output, the engine's error messages
+   are sent back to it once.
+
+3. Gemini 4 Hydrogen (gemini-4-hydrogen): navigator.
+   The fast action loop. Given a goal, the list of elements on screen and a
+   screenshot, it returns the next UI actions (click, type, select, navigate)
+   as function calls. It is what actually operates the EDC application, the
+   CRO deployment screens and the site workspace, and it does a small task in
+   the existing RELAY environment while the protocol is being read.
+
+4. Gemini 4 Carbon (gemini-4-carbon): independent auditor.
+   Never sees Argon's reasoning. It gets the protocol PDF and the casebook
+   diff with the planner's rationale stripped out, and reports anything not
+   traceable to a page, anything that contradicts the protocol, anything the
+   protocol requires that the diff is missing, and where the protocol itself
+   is ambiguous.
+
+Other Google models:
+
+5. Gemini Decision 1 (gemini-decision-1, through the Decisions API). Three
+   jobs, all of them yes/no or multiple-choice judgements returned as
+   calibrated probabilities:
+   - Utterance gate. For every user turn, from the audio and its transcript:
+     was it addressed to the agent, what is the intent, and is it about the
+     task. Thresholds then decide between acting, asking "Was that for me?",
+     and saying nothing, which is how side conversations are ignored.
+   - Step verifier. After every navigator action, from a screenshot: did the
+     action succeed, and does the screen match the expected state.
+   - Audit scoring. Scores each of Carbon's findings for whether a person
+     needs to decide it, so routing to a human uses a probability.
+
+6. Gemini 3.8 Live (gemini-3.8-live): voice in and out.
+   Real-time speech with barge-in, connected from the browser with an
+   ephemeral token minted by our server. It hears the user and speaks the
+   agent's lines. It does not decide anything: each thing it hears is handed
+   to the orchestrator through a function call, and what it says is the text
+   the orchestrator gives it. It is not a Gemini 4 model.
+
+No other Google models are used. The rule engine, the citation check, the
+build-equals-plan check, the transition plan, the audit ledger and the
+signature service are ordinary code, not models.

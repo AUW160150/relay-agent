@@ -1,0 +1,58 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "43164149cd2980b33dbe875a8fdaac238e9cc697d4f7a7bc3b3ee07f40aca472",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_5886441382893470987",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V2"
+   }
+  },
+  {
+   "id": "call_5886441382893470748",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V3"
+   }
+  },
+  {
+   "id": "call_5886441382893470509",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V4"
+   }
+  },
+  {
+   "id": "call_5886441382893470270",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V6"
+   }
+  },
+  {
+   "id": "call_5886441382893470031",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V8"
+   }
+  },
+  {
+   "id": "call_5886441382893469792",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-ADA-V9"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 9353,
+  "output_tokens": 142,
+  "thought_tokens": 141
+ },
+ "cost_usd": 0.016152,
+ "latency_s": 4.91,
+ "status": "requires_action"
+}

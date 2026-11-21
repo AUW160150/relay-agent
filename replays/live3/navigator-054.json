@@ -1,0 +1,39 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "6c2a4e568859cd265b4d8aaf0c8edaf1ca1b497bd9d0654b2d4366fc1ecd684a",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_12433833769974519740",
+   "name": "type",
+   "args": {
+    "agent_id": "form-id",
+    "text": "DIARY"
+   }
+  },
+  {
+   "id": "call_12433833769974519093",
+   "name": "type",
+   "args": {
+    "agent_id": "form-label",
+    "text": "Patient Diary"
+   }
+  },
+  {
+   "id": "call_12433833769974518446",
+   "name": "click",
+   "args": {
+    "agent_id": "form-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1320,
+  "output_tokens": 78,
+  "thought_tokens": 67
+ },
+ "cost_usd": 0.003067,
+ "latency_s": 2.357,
+ "status": "requires_action"
+}

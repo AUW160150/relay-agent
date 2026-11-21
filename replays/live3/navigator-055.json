@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "3774c1c4c3177a450a1c2e3ec947a08eabf19d8f0607b632473d0c4f253d6bc5",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_6795061505229276965",
+   "name": "done",
+   "args": {
+    "summary": "Created and saved form DIARY with label \"Patient Diary\" on the Forms page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1774,
+  "output_tokens": 36,
+  "thought_tokens": 49
+ },
+ "cost_usd": 0.003299,
+ "latency_s": 1.517,
+ "status": "requires_action"
+}

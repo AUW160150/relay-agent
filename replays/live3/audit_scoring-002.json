@@ -1,0 +1,74 @@
+{
+ "job": "audit_scoring",
+ "model": "gemini-decision-1",
+ "prompt_hash": "cf00486b60be091d4e77f100aa0a249ed4a4ba2ceaeaa6efc5f2faaa325f2d73",
+ "answers": {
+  "F-10": {
+   "type": "noul",
+   "confidence": 0.9607049162070302,
+   "p": 0.9607049162070302
+  },
+  "F-12": {
+   "type": "noul",
+   "confidence": 0.9722034050741276,
+   "p": 0.9722034050741276
+  },
+  "F-11": {
+   "type": "noul",
+   "confidence": 0.5428695766927785,
+   "p": 0.4571304233072216
+  },
+  "F-4": {
+   "type": "noul",
+   "confidence": 0.9785832156094988,
+   "p": 0.9785832156094988
+  },
+  "F-3": {
+   "type": "noul",
+   "confidence": 0.9786720933142709,
+   "p": 0.9786720933142709
+  },
+  "F-2": {
+   "type": "noul",
+   "confidence": 0.9595124190511756,
+   "p": 0.9595124190511756
+  },
+  "F-1": {
+   "type": "noul",
+   "confidence": 0.9116961417956195,
+   "p": 0.9116961417956195
+  },
+  "F-5": {
+   "type": "noul",
+   "confidence": 0.981893109577675,
+   "p": 0.981893109577675
+  },
+  "F-8": {
+   "type": "noul",
+   "confidence": 0.9898294479652388,
+   "p": 0.9898294479652388
+  },
+  "F-9": {
+   "type": "noul",
+   "confidence": 0.94963609436554,
+   "p": 0.94963609436554
+  },
+  "F-6": {
+   "type": "noul",
+   "confidence": 0.9790180942917049,
+   "p": 0.9790180942917049
+  },
+  "F-7": {
+   "type": "noul",
+   "confidence": 0.6592081872632992,
+   "p": 0.6592081872632992
+  }
+ },
+ "usage": {
+  "input_tokens": 5256,
+  "output_tokens": 0,
+  "thought_tokens": 0
+ },
+ "cost_usd": 0.000526,
+ "latency_s": 0.373
+}

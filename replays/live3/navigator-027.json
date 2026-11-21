@@ -1,0 +1,31 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "98ec944aadf9de6288cdf2ba59688e99817f2888c8842a2db66ea90674a8694c",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_8930712781947018450",
+   "name": "type",
+   "args": {
+    "agent_id": "codelist-entry",
+    "text": "240 h"
+   }
+  },
+  {
+   "id": "call_8930712781947017681",
+   "name": "click",
+   "args": {
+    "agent_id": "codelist-add"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1638,
+  "output_tokens": 55,
+  "thought_tokens": 59
+ },
+ "cost_usd": 0.003312,
+ "latency_s": 6.223,
+ "status": "requires_action"
+}

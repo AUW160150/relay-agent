@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "19ce7eb6fd2bdb44daf0b9c648ba0395638dbad4e0459ba58b8a9f058b350cce",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_7772570924688443140",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-then-message",
+    "text": "Screening endoscopy date is outside the allowable window of Day -35 to Day -6 prior to Randomisation."
+   }
+  },
+  {
+   "id": "call_7772570924688445249",
+   "name": "select",
+   "args": {
+    "agent_id": "rule-scope-form",
+    "value": "ENDO"
+   }
+  },
+  {
+   "id": "call_7772570924688443262",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-scope-events",
+    "text": "V1"
+   }
+  },
+  {
+   "id": "call_7772570924688445371",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1870,
+  "output_tokens": 130,
+  "thought_tokens": 135
+ },
+ "cost_usd": 0.004792,
+ "latency_s": 2.476,
+ "status": "requires_action"
+}

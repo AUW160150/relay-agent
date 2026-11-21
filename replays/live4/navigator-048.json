@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "97f5056a8bd30a124d570d685b8b67101583aa6f15cd4669f276dcd9de8f9744",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11066157112194858649",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "ADADTC"
+   }
+  },
+  {
+   "id": "call_11066157112194857366",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "ADA Collection Date/Time"
+   }
+  },
+  {
+   "id": "call_11066157112194856083",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "datetime"
+   }
+  },
+  {
+   "id": "call_11066157112194858896",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1397,
+  "output_tokens": 108,
+  "thought_tokens": 89
+ },
+ "cost_usd": 0.003573,
+ "latency_s": 2.356,
+ "status": "requires_action"
+}

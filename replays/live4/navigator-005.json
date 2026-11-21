@@ -1,0 +1,62 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "2d0086eafb2aca43c4a72ecb7391098513daf3fdd1452b44994f73dde9ae72bb",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_13868957409426981664",
+   "name": "type",
+   "args": {
+    "agent_id": "event-id",
+    "text": "V2.2"
+   }
+  },
+  {
+   "id": "call_13868957409426984427",
+   "name": "select",
+   "args": {
+    "agent_id": "event-group",
+    "value": "TRT"
+   }
+  },
+  {
+   "id": "call_13868957409426983094",
+   "name": "type",
+   "args": {
+    "agent_id": "event-label",
+    "text": "Visit 2.2 (PK 144h / Day 6)"
+   }
+  },
+  {
+   "id": "call_13868957409426981761",
+   "name": "type",
+   "args": {
+    "agent_id": "event-day",
+    "text": "6"
+   }
+  },
+  {
+   "id": "call_13868957409426984524",
+   "name": "click",
+   "args": {
+    "agent_id": "event-dynamic"
+   }
+  },
+  {
+   "id": "call_13868957409426983191",
+   "name": "click",
+   "args": {
+    "agent_id": "event-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1487,
+  "output_tokens": 167,
+  "thought_tokens": 143
+ },
+ "cost_usd": 0.004555,
+ "latency_s": 2.578,
+ "status": "requires_action"
+}

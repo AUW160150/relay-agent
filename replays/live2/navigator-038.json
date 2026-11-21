@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "ce73f16778ae6604d38f59eaaabc3c103683d8899cd52a181e35d0fc89ab9de7",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_4976971363678449935",
+   "name": "click",
+   "args": {
+    "agent_id": "form-open-MAYO"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1703,
+  "output_tokens": 27,
+  "thought_tokens": 76
+ },
+ "cost_usd": 0.003327,
+ "latency_s": 4.467,
+ "status": "requires_action"
+}

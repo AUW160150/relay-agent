@@ -1,0 +1,417 @@
+{
+ "ran_at": "2026-11-21T10:34:40-0800",
+ "mode": "fixture",
+ "summary": {
+  "runs": 20,
+  "completed": 20,
+  "completion_rate": 1.0,
+  "steps": 1808,
+  "step_success_rate": null,
+  "recoveries": 0,
+  "goal_success_rate": 1.0,
+  "median_seconds": 16.6,
+  "mean_cost_usd": 0
+ },
+ "rows": [
+  {
+   "seed": 0,
+   "answers": "keep",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.7,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 1,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.6,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 2,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.7,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 3,
+   "answers": "drop",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.2,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 4,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.6,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 5,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.7,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 6,
+   "answers": "keep",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.4,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 7,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.6,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 8,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.8,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 9,
+   "answers": "drop",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.1,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 10,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.8,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 11,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.6,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 12,
+   "answers": "keep",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.1,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 13,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.5,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 14,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.7,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 15,
+   "answers": "drop",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.1,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 16,
+   "answers": "keep",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 17.6,
+   "steps": 124,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 13,
+   "goals_ok": 13,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 17,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.7,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 18,
+   "answers": "keep",
+   "option": "B",
+   "completed": true,
+   "error": null,
+   "seconds": 6.2,
+   "steps": 36,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 5,
+   "goals_ok": 5,
+   "tests": {
+    "passed": 2,
+    "total": 2
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  },
+  {
+   "seed": 19,
+   "answers": "drop",
+   "option": "A",
+   "completed": true,
+   "error": null,
+   "seconds": 16.6,
+   "steps": 116,
+   "verified_ok": 0,
+   "verify_failed": 0,
+   "recoveries": 0,
+   "goals": 12,
+   "goals_ok": 12,
+   "tests": {
+    "passed": 6,
+    "total": 6
+   },
+   "build_matches_plan": true,
+   "cost_usd": 0
+  }
+ ]
+}

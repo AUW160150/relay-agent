@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "f7886eed3404769350f63bacbbac6ae325a6fbe6629b0395ccf3bd9b6a5df324",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11816012060949688480",
+   "name": "done",
+   "args": {
+    "summary": "Assigned form PE to events V4, V6, and V8 on the Schedule page."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 10442,
+  "output_tokens": 38,
+  "thought_tokens": 141
+ },
+ "cost_usd": 0.017005,
+ "latency_s": 2.571,
+ "status": "requires_action"
+}

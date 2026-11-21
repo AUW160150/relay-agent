@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "src/styles.css"
+        ],
+        "createdAt": "2026-11-21T19:04:00.752Z",
+        "reason": "Assistant decided: the orange left rule on the landing benefit columns copies the reference demo's landing page, which the user asked this frontend to match"
+      }
+    ]
+  }
+}

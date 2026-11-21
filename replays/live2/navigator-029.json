@@ -1,0 +1,65 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "fef616be227f3817ded995413dcdfbffe323611112a87a54935935959a797db0",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_14485663471610051780",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V2.1"
+   }
+  },
+  {
+   "id": "call_14485663471610050227",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V2.2"
+   }
+  },
+  {
+   "id": "call_14485663471610048674",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V2.3"
+   }
+  },
+  {
+   "id": "call_14485663471610051217",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V7.1"
+   }
+  },
+  {
+   "id": "call_14485663471610049664",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V7.2"
+   }
+  },
+  {
+   "id": "call_14485663471610052207",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V7.3"
+   }
+  },
+  {
+   "id": "call_14485663471610050654",
+   "name": "click",
+   "args": {
+    "agent_id": "sched-AE-V8.1"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 8955,
+  "output_tokens": 179,
+  "thought_tokens": 158
+ },
+ "cost_usd": 0.01596,
+ "latency_s": 3.495,
+ "status": "requires_action"
+}

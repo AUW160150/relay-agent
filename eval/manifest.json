@@ -1,0 +1,872 @@
+{
+ "frozen_at": "2026-11-21T10:31:31-0800",
+ "source": "ClinicalTrials.gov API v2",
+ "queries": [
+  "AREA[LargeDocHasProtocol]true AND AREA[StudyType]INTERVENTIONAL AND AREA[LargeDocLabel]amendment",
+  "AREA[LargeDocHasProtocol]true AND AREA[StudyType]INTERVENTIONAL AND AREA[LargeDocLabel]\"summary of changes\"",
+  "AREA[LargeDocHasProtocol]true AND AREA[StudyType]INTERVENTIONAL AND AREA[LargeDocLabel]version"
+ ],
+ "selection": "NCT order from the queries; kept if a summary-of-changes heading was detected on any page, or (up to a cap) if more than one protocol version is posted; PDF under 15 MB and 20 to 400 pages",
+ "split_rule": "sorted by sha256(nct); the first 8 studies that have a summary of changes are dev, the rest test",
+ "excluded": [
+  "NCT03235752"
+ ],
+ "skipped": {
+  "too_large": 11,
+  "no_pdf": 0,
+  "pages": 64,
+  "no_signal": 35,
+  "unreadable": 0,
+  "no_soc_over_cap": 123
+ },
+ "counts": {
+  "total": 25,
+  "dev": 8,
+  "test": 17,
+  "with_soc": 15,
+  "multi_version": 25
+ },
+ "studies": [
+  {
+   "nct": "NCT00743340",
+   "title": "Rollover Study Protocol for Pediatric Patients in South Africa for Continued Access to Emtricitabine",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "HIV-1 Infection"
+   ],
+   "new": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Amendment",
+    "date": "2013-07-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT00743340/Prot_001.pdf",
+    "sha256": "7f16f2eb97be303db5dae0371a66224b89ac6215d3d9fa2dcedd57e2befa7698",
+    "pages": 69,
+    "bytes": 1253558
+   },
+   "prev": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Original",
+    "date": "2005-01-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT00743340/Prot_002.pdf",
+    "sha256": "70b5df05c6c44700ee6417bd84a4ec7de92a97865427b1c19887700853f555e8",
+    "bytes": 2911142
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01090414",
+   "title": "An Extension Study for Subjects Who Are Deriving Benefit With Idelalisib (GS-1101; CAL-101) Following Completion of a Prior Idelalisib Study",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "conditions": [
+    "Chronic Lymphocytic Leukemia",
+    "Lymphoma, Non-Hodgkin"
+   ],
+   "new": {
+    "filename": "Prot_006.pdf",
+    "label": "Study Protocol: Amendment 6",
+    "date": "2017-08-28",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01090414/Prot_006.pdf",
+    "sha256": "819d00a607ba10f6f472ea56bc3bf524f7eb643d171fa8e206f39592690e3708",
+    "pages": 56,
+    "bytes": 1639216
+   },
+   "prev": {
+    "filename": "Prot_005.pdf",
+    "label": "Study Protocol: Amendment 5",
+    "date": "2016-11-07",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01090414/Prot_005.pdf",
+    "sha256": "932a8de697f498aa9e8e42bfcf7f51a2b9c1e09c889fe66bc74a3ef35263fb61",
+    "bytes": 1131855
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 7,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01237587",
+   "title": "A Study of Duloxetine in Adolescents With Juvenile Primary Fibromyalgia Syndrome",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Fibromyalgia"
+   ],
+   "new": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Protocol Amendment (b)",
+    "date": "2013-04-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01237587/Prot_003.pdf",
+    "sha256": "d29c5ac776ce920caa5af972149f5f90531adde3c4917fdd6151b2b6a6dd70e7",
+    "pages": 80,
+    "bytes": 3234722
+   },
+   "prev": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Protocol Amendment (a)",
+    "date": "2011-07-13",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01237587/Prot_001.pdf",
+    "sha256": "4204db2737d20b33bcfa791ff27b8aadf81f8428b6aaefbd5958b00850cb4906",
+    "bytes": 1816038
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 3,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01297309",
+   "title": "A Open-label Study Investigating the Safety and Tolerability of NPSP558, a Recombinant Human Parathyroid Hormone (rhPTH [1-84]), for the Treatment of Adults With Hypoparathyroidism - A Clinical Extension Study (RACE)",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Hypoparathyroidism"
+   ],
+   "new": {
+    "filename": "Prot_005.pdf",
+    "label": "Study Protocol: Protocol Amendment 6",
+    "date": "2016-10-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT01297309/Prot_005.pdf",
+    "sha256": "f5d11c22e8a0f5c7574fcb79a381beb8482df39bbf4ade0cccf63474fd49682c",
+    "pages": 79,
+    "bytes": 2755329
+   },
+   "prev": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Protocol Amendment 5",
+    "date": "2016-05-03",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT01297309/Prot_004.pdf",
+    "sha256": "d5e377313780fcd64b9b3d9944763b0734c0a59dd68d4f08fdbd6979b048f0ef",
+    "bytes": 2109208
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 6,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01298141",
+   "title": "A Multicenter Open-Label Treatment Protocol to Observe the Safety of Replagal (Agalsidase Alfa) Enzyme Replacement Therapy in Canadian Patients With Fabry Disease",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Fabry Disease"
+   ],
+   "new": {
+    "filename": "Prot_005.pdf",
+    "label": "Study Protocol: Amendment 5",
+    "date": "2015-03-27",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT01298141/Prot_005.pdf",
+    "sha256": "c50eaf6d56c185187914454857f47ad070306d67a22566fbc60ec78293a0dea3",
+    "pages": 37,
+    "bytes": 2234825
+   },
+   "prev": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Amendment 4",
+    "date": "2013-03-28",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT01298141/Prot_004.pdf",
+    "sha256": "ae5d1c2631a6c945a47afceee5c83a2fe7e9435a2c81bc040b4242a84ce44974",
+    "bytes": 2060813
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 6,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01386658",
+   "title": "A Pharmacokinetic, Tolerability and Safety Study of Icatibant in Children and Adolescents With Hereditary Angioedema",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Hereditary Angioedema (HAE)"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Protocol Amendment 4",
+    "date": "2016-03-18",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT01386658/Prot_004.pdf",
+    "sha256": "975226b7ed54b6131d286b05b0b68854816aab8d24aeff86353719f87e6db41e",
+    "pages": 107,
+    "bytes": 1739913
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Protocol Amendment 3",
+    "date": "2013-06-19",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT01386658/Prot_003.pdf",
+    "sha256": "ce62482bbc7d2df04b87354cfb6f0c1b595998f262ce6091c5253a79f6af2410",
+    "bytes": 5311071
+   },
+   "soc_pages": [
+    89
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01456949",
+   "title": "Sustained Treatment of Paroxysmal Atrial Fibrillation Post-Approval Study (STOP AF PAS)",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Paroxysmal Atrial Fibrillation (PAF)"
+   ],
+   "new": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Clinical Investigation Plan Version 6",
+    "date": "2016-06-30",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT01456949/Prot_003.pdf",
+    "sha256": "100d8bc64297252d2d8d30d84c1ab6cdcb00f2158de204728186eb2b53544000",
+    "pages": 60,
+    "bytes": 697632
+   },
+   "prev": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Clinical Investigation Plan Version 5",
+    "date": "2013-09-27",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT01456949/Prot_002.pdf",
+    "sha256": "bee2337f31e58960bf989e9cc1fe5ece3f5afbeecfcaaf60fbe4e77408b12393",
+    "bytes": 841598
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 3,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01539291",
+   "title": "Extension Study of Idelalisib in Participants With Chronic Lymphocytic Leukemia (CLL) Who Participated in GS-US-312-0116 (NCT01539512)",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Chronic Lymphocytic Leukemia"
+   ],
+   "new": {
+    "filename": "Prot_011.pdf",
+    "label": "Study Protocol: Amendment 9",
+    "date": "2017-09-21",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT01539291/Prot_011.pdf",
+    "sha256": "5a9f874277f022ddee5df6289a8fc39aeb3b9d534c99900716dbf2ae7247ce77",
+    "pages": 164,
+    "bytes": 1802810
+   },
+   "prev": {
+    "filename": "Prot_010.pdf",
+    "label": "Study Protocol: Amendment 8",
+    "date": "2016-10-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT01539291/Prot_010.pdf",
+    "sha256": "015280d055ff8f0ea74cc5d38f90c34e174d9467f350074f8eab8b61d5fa238d",
+    "bytes": 1792942
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 10,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01651403",
+   "title": "Study to Evaluate the Antiviral Efficacy, Safety and Tolerability of Tenofovir Disoproxil Fumarate Versus Placebo in Pediatric Participants With Chronic Hepatitis B Infection",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Chronic Hepatitis B"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Amendment 4",
+    "date": "2016-08-04",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT01651403/Prot_004.pdf",
+    "sha256": "acdedf0470ed037664806ef9e23a5006294f11afa5ed67db31a78fc4536d2b44",
+    "pages": 130,
+    "bytes": 1310620
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Amendment 3",
+    "date": "2016-02-29",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT01651403/Prot_003.pdf",
+    "sha256": "e5c9047cd304b9ad9fe4b477bd1c60abbf8f0c41c7c73a19c17308b388951488",
+    "bytes": 1287051
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01854775",
+   "title": "Study to Evaluate the Pharmacokinetics, Safety, and Antiviral Activity of the Elvitegravir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (E/C/F/TAF) Single Tablet Regimen (STR) in HIV-1 Infected Antiretroviral Treatment-Naive Adolescents and Virologically Suppressed Children",
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ],
+   "conditions": [
+    "Acquired Immune Deficiency Syndrome (AIDS)",
+    "HIV Infections"
+   ],
+   "new": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Protocol Amendment 7",
+    "date": "2021-06-01",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01854775/Prot_003.pdf",
+    "sha256": "fe0f8f929800d22c1f0c3002d42cb60280fbcdc1432b15dbf9c08573289a8aa7",
+    "pages": 130,
+    "bytes": 9003744
+   },
+   "prev": {
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol: Protocol Amendment 6",
+    "date": "2020-02-21",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01854775/Prot_000.pdf",
+    "sha256": "021c387bca694f1a630116c56d6bccd17400b44b4b02dee91a649091c46f433b",
+    "bytes": 6372852
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "test"
+  },
+  {
+   "nct": "NCT01945593",
+   "title": "BAX 855 Continuation",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Hemophilia A"
+   ],
+   "new": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Protocol Amendment 7",
+    "date": "2015-03-20",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT01945593/Prot_003.pdf",
+    "sha256": "3c9878be0649c912781b0996d6674a046ef173d0abe13c9bbf2b07b840e4ce25",
+    "pages": 111,
+    "bytes": 818534
+   },
+   "prev": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Protocol Amendment 4",
+    "date": "2014-05-23",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT01945593/Prot_002.pdf",
+    "sha256": "cc4d56d824caf55ea383a68dbe32a39f14aaa4b103b8924b4890527f6f3c1a1a",
+    "bytes": 861080
+   },
+   "soc_pages": [
+    109
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 4,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT01958281",
+   "title": "Sofosbuvir Plus Ribavirin, or Ledipasvir/Sofosbuvir in Adults With HCV Infection and Renal Insufficiency",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "HCV Infection"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Amendment 4",
+    "date": "2015-04-23",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT01958281/Prot_004.pdf",
+    "sha256": "9b2aa9e0af1627796d66ec49ced3375f6190407c40f8bd341e0f7519c79dab0f",
+    "pages": 103,
+    "bytes": 2391102
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Amendment 3",
+    "date": "2015-02-23",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT01958281/Prot_003.pdf",
+    "sha256": "f0c717642409d0be3f3625b93f75d0de1f6bf9455bbe6cae0d6abf1e6ad89b99",
+    "bytes": 2370925
+   },
+   "soc_pages": [],
+   "has_soc": false,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "test"
+  },
+  {
+   "nct": "NCT02055118",
+   "title": "Study of Intrathecal Idursulfase-IT Administered in Conjunction With Elaprase\u00ae in Pediatric Patients With Hunter Syndrome and Early Cognitive Impairment",
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ],
+   "conditions": [
+    "Hunter Syndrome"
+   ],
+   "new": {
+    "filename": "Prot_005.pdf",
+    "label": "Study Protocol: Amendment 5",
+    "date": "2016-04-18",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02055118/Prot_005.pdf",
+    "sha256": "15bbaa673a56f9105652071ab62580e848771e9c040bd4675d39cd48c1c084c0",
+    "pages": 111,
+    "bytes": 1245290
+   },
+   "prev": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Amendment 4",
+    "date": "2015-12-21",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02055118/Prot_004.pdf",
+    "sha256": "023beeaf1318621f12a793274bfbb26d2e4f40c07d342ba3bb4d4abc083cdb65",
+    "bytes": 1904198
+   },
+   "soc_pages": [
+    110
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 6,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT02585960",
+   "title": "BAX 855 PK-guided Dosing",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Hemophilia A"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Amendment 5",
+    "date": "2016-10-18",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02585960/Prot_004.pdf",
+    "sha256": "ac77544ce3f7e213ef0163b94d828a7df1a1b6132f1ed7cdff1e714ba685e1c6",
+    "pages": 122,
+    "bytes": 1141608
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Amendment 3",
+    "date": "2015-09-04",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02585960/Prot_003.pdf",
+    "sha256": "b05d15b0c9d1978364377c62ee609e98b1ca0cede76b3d70a25f9d448e2a7622",
+    "bytes": 1119483
+   },
+   "soc_pages": [
+    117
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT02910466",
+   "title": "A Study of Extended Use of Recombinant Human Parathyroid Hormone (rhPTH(1-84)) in Hypoparathyroidism",
+   "phases": [
+    "PHASE4"
+   ],
+   "conditions": [
+    "Chronic Hypoparathyroidism",
+    "Hypoparathyroidism"
+   ],
+   "new": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Amendment 2",
+    "date": "2018-09-05",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02910466/Prot_002.pdf",
+    "sha256": "767bc8eca62848b993080655d4733a8e3cacd9076c35dfe2433a57173f15e36d",
+    "pages": 86,
+    "bytes": 4294158
+   },
+   "prev": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Amendment 1",
+    "date": "2017-08-16",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02910466/Prot_001.pdf",
+    "sha256": "c3187593e84f6ec55e156e5b450bcd16affbb1da7df6eb8a6c17615b51e50bcf",
+    "bytes": 2522724
+   },
+   "soc_pages": [
+    3
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 3,
+   "split": "test"
+  },
+  {
+   "nct": "NCT03012841",
+   "title": "STOP Persistent AF",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Atrial Fibrillation"
+   ],
+   "new": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Version 6",
+    "date": "2017-12-01",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03012841/Prot_003.pdf",
+    "sha256": "f127a05adbbd230fd968b2757ad53fd76086b5462418e614871fcc8af54a3f5d",
+    "pages": 128,
+    "bytes": 1842674
+   },
+   "prev": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Version 5",
+    "date": "2017-04-17",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03012841/Prot_002.pdf",
+    "sha256": "fafa49769efa514ee6166db2b2f738f93e392b95ae7bf6f3c4a41baa2169a1b7",
+    "bytes": 1034464
+   },
+   "soc_pages": [
+    121
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 3,
+   "split": "test"
+  },
+  {
+   "nct": "NCT03579966",
+   "title": "Long Term Safety Study of Amifampridine Phosphate in MuSK-MG (Muscle Specific Tyrosine Kinase Myasthenia Gravis)",
+   "phases": [
+    "PHASE3"
+   ],
+   "conditions": [
+    "Myasthenia Gravis, MuSK",
+    "AChR Myasthenia Gravis"
+   ],
+   "new": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Amendment 1",
+    "date": "2020-02-07",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT03579966/Prot_001.pdf",
+    "sha256": "dbcdb480dab34d2e9ebfb7719dc535b60901d9cdc7878ff0ddc636d9cc3a83b0",
+    "pages": 50,
+    "bytes": 696022
+   },
+   "prev": {
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol: Original Protocol",
+    "date": "2017-11-12",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT03579966/Prot_000.pdf",
+    "sha256": "ed5b25d471d852d5cb50ff7ed586378d878dc4e7994703077dcd5871961c988f",
+    "bytes": 624867
+   },
+   "soc_pages": [
+    7
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT03604263",
+   "title": "ArcticLine Feasibility Study",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Atrial Fibrillation",
+    "Atrial Flutter"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: CIP version 5.0",
+    "date": "2019-04-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03604263/Prot_004.pdf",
+    "sha256": "d9e42d22b7c79c1b3b90916965d83ba45726a8803899eadeee9e63de40735132",
+    "pages": 123,
+    "bytes": 1583146
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: CIP version 4.0",
+    "date": "2018-06-14",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03604263/Prot_003.pdf",
+    "sha256": "59bd1cdb33ab3b8cdc7a626d06b04f7d1451eb0a5977820fd8e530b3c1c45396",
+    "bytes": 1654653
+   },
+   "soc_pages": [
+    113
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 4,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT03692078",
+   "title": "A Study to Evaluate Changes in Smokers Using Oral Tobacco-derived Nicotine Products.",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Tobacco Use"
+   ],
+   "new": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: ALCS-RDS-18-04-VRV Protocol Version 2",
+    "date": "2018-05-25",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03692078/Prot_001.pdf",
+    "sha256": "bfc40dc52bb25dfd3c8e9716384cc4429aabcd07204ec90927da07f721473fd8",
+    "pages": 62,
+    "bytes": 754678
+   },
+   "prev": {
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol: ALCS-RDS-18-04-VRV Protocol Version 1",
+    "date": "2018-03-30",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03692078/Prot_000.pdf",
+    "sha256": "0ce5d0e00a3ef1613a009d0f94ca7e724d76a1f965cebbd526e4dc9422ad0c3c",
+    "bytes": 1079741
+   },
+   "soc_pages": [
+    5
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT03922308",
+   "title": "Study of rADAMTS-13 (SHP655) in the Treatment of Participants With Acquired Thrombotic Thrombocytopenic Purpura (aTTP)",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "Acquired Thrombotic Thrombocytopenic Purpura (aTTP)"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: Protocol Amendment 4",
+    "date": "2020-09-17",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03922308/Prot_004.pdf",
+    "sha256": "e7ef3f1cbb6592e2fce9318006f36c0747f736674f698f1cdf3ef034a6c14990",
+    "pages": 106,
+    "bytes": 1528786
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: Protocol Amendment 3",
+    "date": "2020-06-08",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03922308/Prot_003.pdf",
+    "sha256": "fc8ed9cf6c1577eda29b51d761b9909bc5453187b74d0a58e7757eb57eb2050e",
+    "bytes": 1352299
+   },
+   "soc_pages": [
+    4
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "test"
+  },
+  {
+   "nct": "NCT04084483",
+   "title": "A Study Assessing the Safety, Efficacy, and Optimum Dosage of K-161 in Subjects With Moderate to Severe Dry Eye Disease",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "Dry Eye Disease"
+   ],
+   "new": {
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Amendment 2",
+    "date": "2019-07-26",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04084483/Prot_002.pdf",
+    "sha256": "9630ac6792ac41caebda3eee43ede4e8989b982793dada50a57f673dceb841b9",
+    "pages": 76,
+    "bytes": 1110018
+   },
+   "prev": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Amendment 1",
+    "date": "2019-06-13",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04084483/Prot_001.pdf",
+    "sha256": "f6b93682b20796e731a61d8b539904571f1f349fd097eb3b5ad42a0b34aeccd4",
+    "bytes": 1108904
+   },
+   "soc_pages": [
+    72
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 3,
+   "split": "test"
+  },
+  {
+   "nct": "NCT04198701",
+   "title": "Pulsed Field Ablation to Irreversibly Electroporate Tissue and Treat AF",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Atrial Fibrillation"
+   ],
+   "new": {
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: version 7",
+    "date": "2020-12-03",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04198701/Prot_SAP_000.pdf",
+    "sha256": "474d84e2d647bac5dba7a87c8723221e37b54d5b44f9ab3fbc8fa1fe652e98df",
+    "pages": 189,
+    "bytes": 1889307
+   },
+   "prev": {
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: version 6",
+    "date": "2020-10-02",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04198701/Prot_SAP_001.pdf",
+    "sha256": "6824ad4cecb5c86971b4d68986449dc938589027fd77084d53c34a8cc8a57f08",
+    "bytes": 1862852
+   },
+   "soc_pages": [
+    182
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 4,
+   "split": "dev"
+  },
+  {
+   "nct": "NCT04800211",
+   "title": "Biomarkers of Exposure and Biomarkers of Potential Harm in Adult Smokers Who Completely Switch to E-vapor Products",
+   "phases": [
+    "NA"
+   ],
+   "conditions": [
+    "Tobacco Use"
+   ],
+   "new": {
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol: ALCS-RA-17-11-EV Protocol Version 3",
+    "date": "2017-06-06",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04800211/Prot_004.pdf",
+    "sha256": "ab4c8b4cb89f7b9cb825f667d636fe170f35f007da8717fbc6c9535c64845d38",
+    "pages": 89,
+    "bytes": 1760413
+   },
+   "prev": {
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol: ALCS-RA-17-11-EV Protocol Version 2",
+    "date": "2017-04-20",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04800211/Prot_003.pdf",
+    "sha256": "1d6d257f69a223c95a0e3517bd8cb695b3d4210e82b134d17cbfe22066903fd2",
+    "bytes": 1732191
+   },
+   "soc_pages": [
+    5,
+    6
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 5,
+   "split": "test"
+  },
+  {
+   "nct": "NCT05714345",
+   "title": "Evaluation of Lymphodepletion With ALLO-647 in Adults With R/R Large B Cell Lymphoma Receiving ALLO-501A Allogeneic CAR T Cell Therapy",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "Relapsed/Refractory Large B Cell Lymphoma"
+   ],
+   "new": {
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol with Statistical Analysis Plan Amendment 1",
+    "date": "2022-10-13",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT05714345/Prot_SAP_001.pdf",
+    "sha256": "b4f3e77ced06878713931201f6d37ae8582db6c240c8415a0f00e1fddb29d88e",
+    "pages": 132,
+    "bytes": 2999740
+   },
+   "prev": {
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol with Statistical Analysis Plan Original",
+    "date": "2022-06-24",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT05714345/Prot_SAP_000.pdf",
+    "sha256": "563430e9aeb302b3fbdd8989c90c27c516c912cf695ce9526059cf3a13113351",
+    "bytes": 1580846
+   },
+   "soc_pages": [
+    9,
+    10,
+    11
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "test"
+  },
+  {
+   "nct": "NCT05911841",
+   "title": "A Study of LY3454738 in the Treatment of Adult Participants With Moderate-to-Severe Atopic Dermatitis",
+   "phases": [
+    "PHASE2"
+   ],
+   "conditions": [
+    "Atopic Dermatitis"
+   ],
+   "new": {
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: FR01(c) Protocol",
+    "date": "2024-05-06",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05911841/Prot_001.pdf",
+    "sha256": "c15317c13f8efd98c13be1aed34ff27abf3ab427df963ba4e0d2a67a99966fd6",
+    "pages": 96,
+    "bytes": 4900826
+   },
+   "prev": {
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol: IMMB(b) Protocol",
+    "date": "2023-09-12",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05911841/Prot_000.pdf",
+    "sha256": "a574b813183d74fee012141e15c6c0db5a9f0ec9be08a7d8b5114f9b898e9f57",
+    "bytes": 2865388
+   },
+   "soc_pages": [
+    4
+   ],
+   "has_soc": true,
+   "multi_version": true,
+   "protocol_versions_posted": 2,
+   "split": "dev"
+  }
+ ]
+}

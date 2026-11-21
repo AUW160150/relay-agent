@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "27d3f61d31789c87af02c47ac2dbfbd2b7310d6066992e78e750757734a5a035",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11632366523704047891",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "MMOD"
+   }
+  },
+  {
+   "id": "call_11632366523704049302",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Modified Mayo Score (excl. PGA)"
+   }
+  },
+  {
+   "id": "call_11632366523704046617",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_11632366523704048028",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1425,
+  "output_tokens": 110,
+  "thought_tokens": 97
+ },
+ "cost_usd": 0.00369,
+ "latency_s": 2.946,
+ "status": "requires_action"
+}

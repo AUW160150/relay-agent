@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "46f89a5476ae192467f48988bce2823dad72e80c757e6a886dae24d43da075bd",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_13522654394373819830",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-edit-CMP_PK_01"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1627,
+  "output_tokens": 31,
+  "thought_tokens": 47
+ },
+ "cost_usd": 0.003025,
+ "latency_s": 1.548,
+ "status": "requires_action"
+}

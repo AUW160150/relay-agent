@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "e3ee1810c0156d395398f4b1bc44ddabafed98ac9c2496712b5560123fd8e465",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_2929158807186191210",
+   "name": "done",
+   "args": {
+    "summary": "Extended review plan SDV100 by ticking form PK at events V2, V2.1, V2.2, V2.3, V3, V4, V5, V6, V7, V7.1, V7.2, V7.3, V8, V8.1, and V9."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2770,
+  "output_tokens": 93,
+  "thought_tokens": 84
+ },
+ "cost_usd": 0.005483,
+ "latency_s": 2.655,
+ "status": "requires_action"
+}

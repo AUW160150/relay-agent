@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "2b23f3cd5d64ae1a7be0ae3b200db8f9fde69cc50fb4590fa47a1396a9b7e9cd",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_10424647350307697368",
+   "name": "done",
+   "args": {
+    "summary": "Added item ADADTC (label \"ADA Sample Collection Date/Time\", type datetime, codelist none) to form ADA."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1795,
+  "output_tokens": 45,
+  "thought_tokens": 42
+ },
+ "cost_usd": 0.003345,
+ "latency_s": 2.59,
+ "status": "requires_action"
+}

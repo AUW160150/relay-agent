@@ -1,0 +1,23 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "9679b3424ef2052468943ae84331a2c3992ebcd48f24843fb15d83cb7077036b",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_161041750327475929",
+   "name": "done",
+   "args": {
+    "summary": "All 24 sites with ethics committee approval are already on casebook version 2 (0 eligible sites remaining; sites waiting for approval were not selected)."
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 2320,
+  "output_tokens": 50,
+  "thought_tokens": 271
+ },
+ "cost_usd": 0.005888,
+ "latency_s": 2.102,
+ "status": "requires_action"
+}

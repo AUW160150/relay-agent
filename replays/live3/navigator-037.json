@@ -1,0 +1,31 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "50da47e517ab9a5283c475426b99cba69e075fbacfb275f517265c8580e542c2",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_9943177109987991141",
+   "name": "type",
+   "args": {
+    "agent_id": "rule-scope-events",
+    "text": "V2.1, V2.2, V2.3, V3, V4, V5, V6, V7, V7.1, V7.2, V7.3, V8, V8.1, V9"
+   }
+  },
+  {
+   "id": "call_9943177109987990790",
+   "name": "click",
+   "args": {
+    "agent_id": "rule-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1647,
+  "output_tokens": 106,
+  "thought_tokens": 228
+ },
+ "cost_usd": 0.004975,
+ "latency_s": 4.625,
+ "status": "requires_action"
+}

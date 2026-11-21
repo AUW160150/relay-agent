@@ -1,0 +1,49 @@
+{
+ "job": "audit_scoring",
+ "model": "gemini-decision-1",
+ "prompt_hash": "e5bceb6dc5dc4cb965820e0079a1b9c6cfb3fea06548e43e9977d68fa1332703",
+ "answers": {
+  "F-6": {
+   "type": "noul",
+   "confidence": 0.9744571710052236,
+   "p": 0.9744571710052236
+  },
+  "F-4": {
+   "type": "noul",
+   "confidence": 0.9164574853759763,
+   "p": 0.9164574853759763
+  },
+  "F-7": {
+   "type": "noul",
+   "confidence": 0.7163412881133961,
+   "p": 0.2836587118866039
+  },
+  "F-5": {
+   "type": "noul",
+   "confidence": 0.9699977634759482,
+   "p": 0.9699977634759482
+  },
+  "F-2": {
+   "type": "noul",
+   "confidence": 0.9822478965881812,
+   "p": 0.9822478965881812
+  },
+  "F-3": {
+   "type": "noul",
+   "confidence": 0.9867963564583061,
+   "p": 0.9867963564583061
+  },
+  "F-1": {
+   "type": "noul",
+   "confidence": 0.9817253405192095,
+   "p": 0.9817253405192095
+  }
+ },
+ "usage": {
+  "input_tokens": 3671,
+  "output_tokens": 0,
+  "thought_tokens": 0
+ },
+ "cost_usd": 0.000367,
+ "latency_s": 0.231
+}

@@ -1,0 +1,47 @@
+{
+ "job": "navigator",
+ "model": "gemini-4-hydrogen",
+ "prompt_hash": "26f83823507b2f6416dc9f715f48baae266dca30aa60cf58bd67cf54f75aff46",
+ "text": "",
+ "calls": [
+  {
+   "id": "call_11730511955511286701",
+   "name": "type",
+   "args": {
+    "agent_id": "item-id",
+    "text": "MAYOSF"
+   }
+  },
+  {
+   "id": "call_11730511955511285930",
+   "name": "type",
+   "args": {
+    "agent_id": "item-label",
+    "text": "Stool Frequency Subscore"
+   }
+  },
+  {
+   "id": "call_11730511955511285159",
+   "name": "select",
+   "args": {
+    "agent_id": "item-type",
+    "value": "number"
+   }
+  },
+  {
+   "id": "call_11730511955511284388",
+   "name": "click",
+   "args": {
+    "agent_id": "item-save"
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1415,
+  "output_tokens": 108,
+  "thought_tokens": 142
+ },
+ "cost_usd": 0.003998,
+ "latency_s": 2.537,
+ "status": "requires_action"
+}
