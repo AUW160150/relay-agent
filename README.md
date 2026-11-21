@@ -4,6 +4,8 @@
 
 You sign in, and the agent catches you up on where the amendment stands across Sponsor, CRO and Site and tells you what is yours to do. When you say "do it", it opens the EDC application and works through it in front of you: a visible cursor moves, fields fill in, pages change. It stops only where a person has to decide: choosing a design, answering an audit question, approving the build, and signing. Every step lands in an audit trail with who did it, the protocol page it came from, the check it passed and its hash.
 
+**▶ Demo video: https://youtu.be/0TKG3HRdpi8**
+
 Built for the Gemini 4 NYC hackathon. Independent concept; not affiliated with or endorsed by Veeva Systems.
 
 ![Landing page](docs/shots/00-landing.png)
